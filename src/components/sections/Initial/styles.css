@@ -1,0 +1,71 @@
+.image-bg {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  transition: all 1s;
+}
+
+header.scrolled {
+  backdrop-filter: blur(12px);
+}
+
+header.scrolled .change-nav a {
+  color: black;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 980px;
+  margin-left: 10rem;
+}
+
+header img {
+  object-fit: cover;
+  width: 18rem;
+  height: 9rem;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  padding: 2.4rem;
+}
+
+section h1 {
+  color: rgb(255, 255, 255);
+  font-size: 7rem;
+  line-height: 0.9;
+  text-align: center;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
+    drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  top: 22rem;
+  left: 35rem;
+  position: absolute;
+  z-index: 2;
+}
+
+section h1 .highlighted-text {
+  font-family: "Lobster";
+  font-size: 9rem;
+}
