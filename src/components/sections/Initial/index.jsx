@@ -12,7 +12,7 @@ const Initial = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const otherSection = document.getElementById("change-header");
+      const otherSection = document.querySelector(".change-header");
       const otherSectionPosition = otherSection ? otherSection.offsetTop : 0;
 
       setIsScrolled(scrollPosition > 50);

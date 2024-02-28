@@ -57,9 +57,9 @@ section h1 {
   font-size: 7rem;
   line-height: 0.9;
   text-align: center;
-  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
-    drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
-  top: 22rem;
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
+    drop-shadow(0 2px 2px rgb(0 0 0 / 0.4));
+  top: 20rem;
   left: 35rem;
   position: absolute;
   z-index: 2;
@@ -67,5 +67,6 @@ section h1 {
 
 section h1 .highlighted-text {
   font-family: "Lobster";
-  font-size: 9rem;
+  font-size: 13rem;
+  font-weight: 500;
 }
