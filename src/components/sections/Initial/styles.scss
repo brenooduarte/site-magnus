@@ -1,3 +1,5 @@
+@import "/src/global.scss";
+
 .image-bg {
   object-fit: cover;
   width: 100%;
@@ -19,7 +21,11 @@ header.scrolled {
 }
 
 header.scrolled .change-nav a {
-  color: black;
+  color: $color-black;
+}
+
+header.scrolled .change-nav {
+  backdrop-filter: blur(0);
 }
 
 header .container {
@@ -52,7 +58,7 @@ header nav ul li a {
   padding: 2.4rem;
 }
 
-section h1 {
+#initial-title {
   color: rgb(255, 255, 255);
   font-size: 7rem;
   line-height: 0.9;
@@ -65,8 +71,11 @@ section h1 {
   z-index: 2;
 }
 
-section h1 .highlighted-text {
-  font-family: "Lobster";
+#initial-title span {
   font-size: 13rem;
   font-weight: 500;
+}
+
+.highlighted-text {
+  font-family: "Lobster";
 }

@@ -1,5 +1,5 @@
+import "./styles.scss";
 import React, { useState, useEffect, useRef } from "react";
-import "./styles.css";
 import ImageInitial from "../../../assets/image-initial.png";
 import MagnusWhiteLogo from "../../../assets/magnus-white-logo.svg";
 import MagnusBlackLogo from "../../../assets/magnus-black-logo.svg";
@@ -38,7 +38,7 @@ const Initial = () => {
   }, []);
 
   return (
-    <section>
+    <section id="initial-section">
       <img
         className={`image-bg ${isInOtherSection ? "scroll-header" : ""}`}
         src={ImageInitial}
@@ -69,7 +69,7 @@ const Initial = () => {
           </div>
         </div>
       </header>
-      <h1>
+      <h1 id="initial-title">
         Você é dono da sua <br />
         <span className="highlighted-text">Marca ?</span>
       </h1>
