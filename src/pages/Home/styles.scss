@@ -1,0 +1,33 @@
+@import "/src/global.scss";
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-message {
+  border: none;
+  border-radius: 20rem;
+  margin: 3rem 0;
+  padding: 2rem 7rem;
+  background-color: $color-yellow;
+  box-shadow: $color-black 0px 2px 0px 2px;
+  color: $color-black;
+
+  font-size: 2rem;
+  font-family: "Kumbh Sans";
+  font-weight: 700;
+  transition: box-shadow ease-in-out 0.2s;
+  transition: background-color ease-in-out 0.2s;
+}
+
+.button-message .highlighted-text {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.button-message:hover {
+  color: white;
+  background-color: $color-black;
+  box-shadow: $color-yellow 0px 2px 0px 2px;
+}
