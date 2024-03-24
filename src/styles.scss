@@ -22,5 +22,10 @@ body {
 
 body {
   font-size: 1.6rem;
-  color: $color-black;
+  background-color: $color-black;
+  color: white;
+}
+
+section {
+  height: 100%;
 }

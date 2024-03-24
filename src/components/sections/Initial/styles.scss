@@ -1,7 +1,7 @@
 @import "/src/global.scss";
 
 #initial-section {
-  height: 100%;
+  height: 100vh;
 }
 
 #info-container {
@@ -69,7 +69,25 @@
   z-index: 1;
 }
 
+@media screen and (max-height: 600px) {
+  #initial-section {
+    height: 60rem;
+  }
+
+  #info-container {
+    height: 60rem;
+  }
+
+  #bg-initial {
+    height: 60rem;
+  }
+}
+
 @media screen and (min-height: 800px) {
+  #initial-section {
+    height: 80rem;
+  }
+
   #info-container {
     height: 80rem;
   }
