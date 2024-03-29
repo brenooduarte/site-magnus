@@ -1,0 +1,65 @@
+@import "/src/global.scss";
+
+#service-section {
+  height: 56rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  #service-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 2.2rem;
+    }
+
+    #service-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.6rem;
+      margin: 5rem 0;
+
+      .service {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid $color-yellow;
+        width: 29.8rem;
+        height: 4.6rem;
+        font-weight: 600;
+      }
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      border: none;
+      border-radius: 1.5rem;
+      background-color: $color-yellow;
+      color: $color-black;
+      font-size: 1.7rem;
+      font-family: "Libre Baskerville";
+      font-weight: 800;
+      padding: 1rem 2rem;
+
+      img {
+        width: 2.5rem;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .texture {
+    object-fit: cover;
+    width: 100%;
+    height: 56rem;
+    position: absolute;
+    z-index: 1;
+    transform: scaleX(-1);
+  }
+}
