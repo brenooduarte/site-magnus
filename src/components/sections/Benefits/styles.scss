@@ -44,3 +44,28 @@
     }
   }
 }
+
+@media screen and (max-width: 370px) {
+  #benefits-section {
+    height: 104rem;
+
+    #benefits-container {
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+
+    .textures {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      .texture {
+        object-fit: cover;
+        width: 100%;
+        height: 52rem;
+        z-index: 1;
+      }
+    }
+  }
+}

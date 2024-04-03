@@ -56,22 +56,23 @@
   .texture {
     object-fit: cover;
     width: 100%;
-    height: 70rem;
     z-index: 1;
   }
 }
 
 @media screen and (max-width: 370px) {
   #satisfaction-section {
-    height: 67rem;
+    height: 64rem;
     font-size: 1.6rem;
 
     #satisfaction-container {
+      gap: 8rem;
+
       .satisfaction-magnus-logo {
         object-fit: cover;
         height: 7rem;
         width: 20rem;
-        margin-top: 5rem;
+        margin-top: 8rem;
       }
 
       h3 {
@@ -98,6 +99,6 @@
   }
 
   .texture {
-    height: 67rem;
+    height: 64rem;
   }
 }
