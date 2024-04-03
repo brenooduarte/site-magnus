@@ -1,8 +1,7 @@
 import "./styles.scss";
-import React, { useState, useEffect, useRef } from "react";
 import backgroundImage from "../../../assets/image-initial.jpg";
 import magnusWhiteLogo from "../../../assets/magnus-white-logo.svg";
-import whatsappIcon from "../../../assets/whatsapp-icon.svg";
+import whatsappIcon from "../../../assets/whatsapp-icon.png";
 
 const Initial = () => {
   return (

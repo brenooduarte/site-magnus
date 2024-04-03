@@ -1,6 +1,5 @@
 import "./styles.scss";
 import backgroundgQuality from "../../../assets/background-quality.jpg";
-import Card from "../../Card/index.jsx";
 
 const Quality = () => {
   return (
