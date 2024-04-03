@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 
     h1 {
       font-size: 2.2rem;
@@ -31,6 +32,7 @@
         width: 29.8rem;
         height: 4.6rem;
         font-weight: 600;
+        font-size: 1.5rem;
       }
     }
 
@@ -42,7 +44,7 @@
       border-radius: 1.5rem;
       background-color: $color-yellow;
       color: $color-black;
-      font-size: 1.7rem;
+      font-size: 1.6rem;
       font-family: "Libre Baskerville";
       font-weight: 800;
       padding: 1rem 2rem;
@@ -61,5 +63,42 @@
     position: absolute;
     z-index: 1;
     transform: scaleX(-1);
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #service-section {
+    #service-content {
+      h1 {
+        font-size: 2rem;
+      }
+
+      #service-container {
+        .service {
+          width: 26rem;
+          height: 4.6rem;
+          font-size: 1.3rem;
+        }
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        border: none;
+        border-radius: 1.5rem;
+        background-color: $color-yellow;
+        color: $color-black;
+        font-size: 1.35rem;
+        font-family: "Libre Baskerville";
+        font-weight: 800;
+        padding: 1rem 2rem;
+
+        img {
+          width: 2.5rem;
+          object-fit: cover;
+        }
+      }
+    }
   }
 }

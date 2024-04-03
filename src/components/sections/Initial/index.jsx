@@ -20,7 +20,7 @@ const Initial = () => {
           <span>MARCA?</span>
         </h1>
         <h2 id="initial-subtitle">
-          Proteja sua marca com quem entende do assunto
+          Proteja sua marca com <br /> quem entende do assunto
         </h2>
 
         <button>
