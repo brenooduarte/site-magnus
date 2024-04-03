@@ -1,5 +1,5 @@
 import "./styles.scss";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
 const Card = ({ photo, alt, title, description }) => {
   useEffect(() => {
