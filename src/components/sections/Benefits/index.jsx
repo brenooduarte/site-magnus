@@ -1,10 +1,10 @@
 import "./styles.scss";
 import texture from "../../../assets/texture.png";
 import Card from "../../Card/index.jsx";
-import Credibility from "../../../assets/card-images/credibilidade-mobile.png";
-import Security from "../../../assets/card-images/seguranca-mobile.png";
-import Property from "../../../assets/card-images/propriedade-mobile.png";
-import Exclusivity from "../../../assets/card-images/exclusividade-mobile.png";
+import Credibility from "../../../assets/card-images/credibility-mobile.png";
+import Security from "../../../assets/card-images/security-mobile.png";
+import Property from "../../../assets/card-images/property-mobile.png";
+import Exclusivity from "../../../assets/card-images/exclusivity-mobile.png";
 
 const Benefits = () => {
   return (
