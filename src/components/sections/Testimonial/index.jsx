@@ -14,7 +14,7 @@ const customerPhotos = [customer01, customer02, customer03];
 const customerNames = ["Lucas Matheus", "Breno Duarte", "Cleber Correia"];
 const customerCompanies = ["Magnus", "Google", "Tik Tok"];
 const customerTestimonials = [
-  "“Muitas vezes é preciso reajustar a logomarca da empresa, adicionar ou retirar termos ou símbolos para evitar problemas durante o registro. A nossa equipe conta com um design gráfico, o que permite otimizar o processo de modificação.”",
+  "“Quando escolhi a MAGNUS para fazer o registro da minha marca, meu sócio e eu estávamos buscando uma empresa de confiança e com um valor acessível, pois sabíamos que muitas empresas que fazem esse tipo de serviço aplicam golpes. Hoje, nossa marca está registrada e podemos usá-la sem qualquer receio.”",
   "“Muitas vezes é preciso reajustar a logomarca da empresa, adicionar ou retirar termos ou símbolos para evitar problemas durante o registro.“",
   "“A nossa equipe conta com um design gráfico, o que permite otimizar o processo de modificação.”",
 ];
