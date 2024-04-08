@@ -2,17 +2,17 @@ import "./styles.scss";
 import Slide from "../../TestimonialSlide/index.jsx";
 import texture from "../../../assets/texture.png";
 
-import customer01 from "../../../assets/testimonial-images/customer-photo/customer01.png";
+import customer01 from "../../../assets/testimonial-images/customer-photo/customer02.png";
 import customer02 from "../../../assets/testimonial-images/customer-photo/customer01.png";
 import customer03 from "../../../assets/testimonial-images/customer-photo/customer01.png";
 
-import brand01 from "../../../assets/testimonial-images/customer-brand/brand01.jpg";
+import brand01 from "../../../assets/testimonial-images/customer-brand/brand02.jpeg";
 import brand02 from "../../../assets/testimonial-images/customer-brand/brand01.jpg";
 import brand03 from "../../../assets/testimonial-images/customer-brand/brand01.jpg";
 
 const customerPhotos = [customer01, customer02, customer03];
-const customerNames = ["Lucas Matheus", "Breno Duarte", "Cleber Correia"];
-const customerCompanies = ["Magnus", "Google", "Tik Tok"];
+const customerNames = ["Valter Souza", "Breno Duarte", "Cleber Correia"];
+const customerCompanies = ["Proprietário da VM Comércio", "Google", "Tik Tok"];
 const customerTestimonials = [
   "“Quando escolhi a MAGNUS para fazer o registro da minha marca, meu sócio e eu estávamos buscando uma empresa de confiança e com um valor acessível, pois sabíamos que muitas empresas que fazem esse tipo de serviço aplicam golpes. Hoje, nossa marca está registrada e podemos usá-la sem qualquer receio.”",
   "“Muitas vezes é preciso reajustar a logomarca da empresa, adicionar ou retirar termos ou símbolos para evitar problemas durante o registro.“",
