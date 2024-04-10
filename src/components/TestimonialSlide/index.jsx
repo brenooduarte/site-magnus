@@ -22,6 +22,7 @@ const TestimonialSlide = ({
       slidesPerView={1}
       speed={1200}
       navigation={true}
+      pagination={{ clickable: true }}
       autoplay={{
         delay: 10000,
         disableOnInteraction: false,
