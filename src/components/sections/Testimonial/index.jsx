@@ -18,7 +18,7 @@ import brand02 from "../../../assets/testimonial-images/customer-brand/brand02.j
 import brand03 from "../../../assets/testimonial-images/customer-brand/brand03.jpg";
 import brand04 from "../../../assets/testimonial-images/customer-brand/brand04.jpg";
 import brand05 from "../../../assets/testimonial-images/customer-brand/brand05.jpg";
-import brand06 from "../../../assets/testimonial-images/customer-brand/brand06.png";
+import brand06 from "../../../assets/testimonial-images/customer-brand/brand06.jpg";
 import brand07 from "../../../assets/testimonial-images/customer-brand/brand07.jpg";
 import brand08 from "../../../assets/testimonial-images/customer-brand/brand08.jpeg";
 import brand09 from "../../../assets/testimonial-images/customer-brand/brand09.jpg";
@@ -43,7 +43,7 @@ const customerNames = [
   "Dr. Aline Sâmara",
   "Ivonielson",
   "Jaelson Ramos",
-  "Murilo Barros",
+  "Jerbson Alves",
   "Ediekes Lopes",
   "Jaqueline Oliveira",
   "Daniel Moura",
@@ -56,7 +56,7 @@ const customerCompanies = [
   "Proprietária da Alilab",
   "Proprietário da Bela Lunni",
   "Proprietário da Jaelson Salgados",
-  "Proprietário da Voip Nordeste",
+  "Proprietário da Atualize Telecom",
   "Proprietário da Escola Doce Encanto",
   "Proprietária da JP Tempero Cheiro Bom",
   "CEO da SIMEP",
