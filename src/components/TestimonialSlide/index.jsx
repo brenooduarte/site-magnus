@@ -1,11 +1,13 @@
 import "./styles.scss";
 import Card from "../TestimonialCard/index.jsx";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
 
 import "swiper/scss";
 import "swiper/scss/pagination";
+import "swiper/css/autoplay";
 
-const CARDS = 3;
+const CARDS = 10;
 
 const TestimonialSlide = ({
   customerPhotos,
@@ -15,7 +17,17 @@ const TestimonialSlide = ({
   customerBrands,
 }) => {
   const cardList = (
-    <Swiper spaceBetween={50} slidesPerView={1} speed={1200} navigation={true}>
+    <Swiper
+      spaceBetween={50}
+      slidesPerView={1}
+      speed={1200}
+      navigation={true}
+      autoplay={{
+        delay: 10000,
+        disableOnInteraction: false,
+      }}
+      modules={[Autoplay, Navigation]}
+    >
       {Array.from({ length: CARDS }, (_, index) => (
         <SwiperSlide key={index}>
           <Card
@@ -30,6 +42,7 @@ const TestimonialSlide = ({
       ))}
     </Swiper>
   );
+
   return <div className="testimonial-slide">{cardList}</div>;
 };
 
