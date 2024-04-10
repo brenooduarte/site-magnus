@@ -72,8 +72,8 @@ const customerTestimonials = [
   "“A gente não sabe o valor da nossa marca até perde-la e foi por isso que eu quase passei. Foi um momento muito difícil para a empresa. Felizmente a Magnus foi como aquela luz no fim do túnel que renovou nossas esperanças. Conseguimos registrar nossa marca e hoje estamos seguros de quem ninguém tira ela da gente.”",
   "“Estávamos recebendo muitas ligações de empresas oferecendo para registrar nossa marca. Mas estávamos com receio pois não tínhamos referencia dessas empresas. Então pedimos indicação a amigos que nos apresentaram à Magnus. Rapidamente já tínhamos nosso pedido de registro protocolado.”",
   "“Conhecemos a Magnus através de uma outra empresa que já havia registrado a marca com eles. Entramos em contato e logo iniciamos o processo de registro da nossa marca. Desde o atendimento até a realização do serviço, tudo feito com muita excelência e celeridade.”",
-  "“Antes de abrir minha empresa uma das preocupações era em relação ao nome da marca. Queria algo simples, mas que ainda não estivesse sendo usado. Contratei a Magnus para me ajudar e encontramos um nome disponível e que eu pudesse usar sem me preocupar depois. Fizemos o registro e hoje posso dizer que sou dono da minha marca.”",
   "“Nossa experiência ao contratar ao Magnus para registrar nossa marca foi a melhor possível. Atendimento excelente, rapidez no serviço e ótimo custo benefício. Sempre que alguém nos pede indicação de alguma empresa para registrar sua marca, indicamos a Magnus sem pensar duas vezes.”",
+  "“Antes de abrir minha empresa uma das preocupações era em relação ao nome da marca. Queria algo simples, mas que ainda não estivesse sendo usado. Contratei a Magnus para me ajudar e encontramos um nome disponível e que eu pudesse usar sem me preocupar depois. Fizemos o registro e hoje posso dizer que sou dono da minha marca.”",
 ];
 
 const customerBrands = [
