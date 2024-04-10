@@ -23,7 +23,11 @@ const Initial = () => {
           Proteja sua marca com <br /> quem entende do assunto
         </h2>
 
-        <button>
+        <button
+          onClick={() =>
+            window.open("https://wa.me/message/3UDZHQRBD4VDD1", "_blank")
+          }
+        >
           <img src={whatsappIcon} alt="Ícone Whatsapp" />
           Fale com um especialista agora
         </button>

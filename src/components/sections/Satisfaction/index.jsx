@@ -21,7 +21,11 @@ const Satisfaction = () => {
           <p>De todos os clientes satisfeitos</p>
         </div>
 
-        <button>
+        <button
+          onClick={() =>
+            window.open("https://wa.me/message/3UDZHQRBD4VDD1", "_blank")
+          }
+        >
           Dê início ao registro de sua marca <br />
           antes que alguém registre por você
         </button>
