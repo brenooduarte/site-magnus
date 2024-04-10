@@ -5,7 +5,7 @@ const Quality = () => {
   return (
     <section id="qualities-section">
       <div id="qualities-info">
-        <h1>Somente na Magnus você vai ter</h1>
+        <h1>SOMENTE NA MAGNUS VOCÊ VAI TER</h1>
 
         <div className="quality-card gray-500">
           <h2>O melhor Custo Benefício</h2>

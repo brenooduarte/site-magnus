@@ -6,7 +6,7 @@ const CustomerService = () => {
   return (
     <section id="service-section">
       <div id="service-content">
-        <h1>Como podemos te ajudar</h1>
+        <h1>COMO PODEMOS TE AJUDAR</h1>
 
         <div id="service-container">
           <span className="service">REGISTRAR MINHA MARCA</span>

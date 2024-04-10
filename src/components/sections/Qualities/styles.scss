@@ -6,8 +6,8 @@
   justify-content: center;
 
   h1 {
-    font-size: 2rem;
-    width: 25rem;
+    font-size: 1.4rem;
+    width: 19rem;
     text-align: center;
     color: $color-yellow;
   }
@@ -62,12 +62,13 @@
 @media screen and (max-width: 370px) {
   #qualities-section {
     h1 {
-      font-size: 2rem;
+      font-size: 1.4rem;
+      width: 19rem;
     }
 
     #qualities-info {
       .quality-card {
-        width: 27rem;
+        width: 30rem;
         border-radius: 15px;
         gap: 1.3rem;
 

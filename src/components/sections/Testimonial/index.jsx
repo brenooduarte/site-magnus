@@ -92,7 +92,7 @@ const customerBrands = [
 const Testimonial = () => {
   return (
     <section id="testimonial-section">
-      <h1>Depoimentos</h1>
+      <h1>DEPOIMENTOS</h1>
 
       <Slide
         customerPhotos={customerPhotos}

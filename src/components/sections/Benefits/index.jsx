@@ -11,10 +11,10 @@ const Benefits = () => {
     <section id="benefits-section">
       <div id="benefits-container">
         <h1>
-          <span>Registrar</span> sua <span>Marca</span>
+          <span>REGISTRAR</span> SUA <span>MARCA</span>
         </h1>
         <h1>
-          garante os seguintes <span>Benefícios</span>
+          GARANTE OS SEGUINTES <span>BENEFÍCIOS</span>
         </h1>
 
         <div id="cards">
