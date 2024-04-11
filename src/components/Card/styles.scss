@@ -49,7 +49,23 @@
     }
 
     img {
-      width: 30rem;
+      width: 31rem;
+      border-radius: 15px;
+    }
+  }
+}
+
+@media screen and (min-width: 385px) {
+  .card {
+    .info-card {
+      p {
+        font-size: 1.5rem;
+        width: 28rem;
+      }
+    }
+
+    img {
+      width: 34rem;
       border-radius: 15px;
     }
   }

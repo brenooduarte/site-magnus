@@ -87,3 +87,13 @@
     }
   }
 }
+
+@media screen and (min-width: 385px) {
+  #qualities-section {
+    #qualities-info {
+      .quality-card {
+        width: 34rem;
+      }
+    }
+  }
+}

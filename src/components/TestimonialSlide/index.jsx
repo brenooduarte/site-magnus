@@ -5,6 +5,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 
 import "swiper/scss";
 import "swiper/css/autoplay";
+import "swiper/css/navigation";
 
 const CARDS = 10;
 

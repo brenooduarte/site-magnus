@@ -1,11 +1,33 @@
 .testimonial-slide {
   display: flex;
-  gap: 6rem;
+  gap: 5rem;
+  // gap: 6rem;
   overflow: hidden;
-  width: 30rem;
+  width: 36rem;
   overflow-x: scroll;
 
   .swiper {
     height: 68rem;
+
+    .swiper-wrapper {
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    .swiper-button-next {
+      color: white;
+      right: 0;
+      transform: scale(0.65);
+      top: 20rem;
+    }
+
+    .swiper-button-prev {
+      color: white;
+      left: 0;
+      transform: scale(0.65);
+      top: 20rem;
+    }
   }
 }
