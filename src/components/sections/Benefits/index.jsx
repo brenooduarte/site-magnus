@@ -13,9 +13,9 @@ const Benefits = () => {
         <h1>
           <span>REGISTRAR</span> SUA <span>MARCA</span>
         </h1>
-        <h1>
+        <h2 id="benefits-subtitle">
           GARANTE OS SEGUINTES <span>BENEFÍCIOS</span>
-        </h1>
+        </h2>
 
         <div id="cards">
           <Card

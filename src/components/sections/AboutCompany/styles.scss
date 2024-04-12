@@ -1,63 +1,3 @@
-// @import "/src/global.scss";
-
-// #about-section {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: space-evenly;
-
-//   height: 62rem;
-//   width: 100%;
-
-//   h1 {
-//     font-size: 1.8rem;
-//     text-align: center;
-//     color: $color-yellow;
-//   }
-
-//   #about-container {
-//     display: flex;
-//     flex-direction: column;
-//     gap: 0.5rem;
-//     width: 36rem;
-
-//     div {
-//       display: flex;
-//       gap: 1rem;
-
-//       #image-lucas {
-//         object-fit: contain;
-//         width: 15rem;
-//       }
-
-//       p {
-//         font-size: 1.35rem;
-//         text-align: justify;
-//         line-height: 1.9rem;
-
-//         span {
-//           font-size: 2.5rem;
-//         }
-//       }
-//     }
-
-//     p {
-//       font-size: 1.4rem;
-//       text-align: justify;
-//       line-height: 1.9rem;
-//     }
-//   }
-
-//   .texture {
-//     position: absolute;
-//     object-fit: cover;
-//     width: 100%;
-//     height: 62rem;
-//     z-index: -1;
-//     transform: scaleX(-1);
-//   }
-// }
-
 @import "/src/global.scss";
 
 #about-section {
@@ -111,12 +51,21 @@
   }
 
   .texture {
+    opacity: 0.9;
     position: absolute;
     object-fit: cover;
     width: 100%;
     height: 58rem;
     z-index: -1;
     transform: scaleX(-1);
+  }
+}
+
+@media screen and (max-width: 369px) {
+  #about-section {
+    h1 {
+      font-size: 1.4rem;
+    }
   }
 }
 
