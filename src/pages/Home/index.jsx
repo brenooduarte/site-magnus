@@ -5,6 +5,7 @@ import Benefits from "../../components/sections/Benefits/index.jsx";
 import Qualities from "../../components/sections/Qualities/index.jsx";
 import CustomerService from "../../components/sections/CustomerService/index.jsx";
 import Testimonial from "../../components/sections/Testimonial/index.jsx";
+import AboutCompany from "../../components/sections/AboutCompany/index.jsx";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Qualities />
       <CustomerService />
       <Testimonial />
+      <AboutCompany />
     </>
   );
 };
