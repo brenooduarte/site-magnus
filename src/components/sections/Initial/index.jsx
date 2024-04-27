@@ -2,17 +2,19 @@ import "./styles.scss";
 import backgroundImage from "../../../assets/image-initial.jpg";
 import magnusWhiteLogo from "../../../assets/magnus-white-logo.svg";
 import whatsappIcon from "../../../assets/whatsapp-icon.png";
+import Header from "../../Header";
 
 const Initial = () => {
   return (
     <section id="initial-section">
-      <header>
+      {/* <header>
         <img
           className="magnus-logo"
           src={magnusWhiteLogo}
           alt="Logotipo branco Magnus"
         />
-      </header>
+      </header> */}
+      <Header />
 
       <div id="info-container">
         <h1 id="initial-title">
