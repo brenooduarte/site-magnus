@@ -7,13 +7,6 @@ import Header from "../../Header";
 const Initial = () => {
   return (
     <section id="initial-section">
-      {/* <header>
-        <img
-          className="magnus-logo"
-          src={magnusWhiteLogo}
-          alt="Logotipo branco Magnus"
-        />
-      </header> */}
       <Header />
 
       <div id="info-container">

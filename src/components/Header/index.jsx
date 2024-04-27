@@ -68,7 +68,7 @@ function Header() {
         {showServicesDropdown && (
           <ul className="services-dropdown">
             <li>
-              <Link to="/registrar-marca<">Registrar minha marca</Link>
+              <Link to="/registrar-marca">Registrar minha marca</Link>
             </li>
             <li>
               <Link to="/oposicao">Fui alvo de oposição</Link>

@@ -1,0 +1,67 @@
+@import "/src/global.scss";
+
+#price-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.5rem;
+  height: 27rem;
+  border-radius: 17px;
+  border: solid 1px white;
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .price-item {
+    height: 14rem;
+    width: 15rem;
+    border-radius: 14px;
+    border: solid 1px $color-yellow;
+  }
+
+  #price-items {
+    display: flex;
+    gap: 1rem;
+
+    .title-rectangle {
+      position: absolute;
+      background-color: white;
+      color: $color-black;
+      font-weight: 600;
+      margin-bottom: 14rem;
+      padding: 0.8rem;
+      border-radius: 12px;
+    }
+
+    .price {
+      font-weight: 600;
+      font-size: 2rem;
+    }
+
+    .price-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0 1rem;
+    }
+
+    #inpi-taxes {
+      .taxe-caption {
+        text-align: center;
+        font-size: 0.8rem;
+      }
+    }
+
+    #fees {
+      .fee-caption {
+        font-weight: 600;
+        text-align: center;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
