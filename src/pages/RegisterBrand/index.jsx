@@ -31,7 +31,7 @@ const RegisterBrand = () => {
           seja dono da marca que utiliza.
         </p>
 
-        <h3>
+        <h3 className="margin-4-0">
           SÓ É DONO DE UMA MARCA <br />
           QUEM A REGISTRA NO INPI
         </h3>
@@ -61,7 +61,7 @@ const RegisterBrand = () => {
           durante o processo, garantindo o sucesso do pedido de registro.
         </p>
 
-        <h3 className="color-yellow">
+        <h3 className="margin-4-0 color-yellow">
           NOSSA MISSÃO É AJUDAR PESSOAS <br />
           E EMPRESAS A SE TORNAREM AS <br />
           ÚNICAS E LEGÍTIMAS DONAS DE <br />
