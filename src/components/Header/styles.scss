@@ -71,6 +71,30 @@
     width: 100%;
     height: 2px;
     background-color: white;
+
+    &.linha1 {
+      transition: all 0.3s ease-in-out;
+    }
+
+    &.linha2 {
+      transition: all 0.15s ease-in-out;
+    }
+
+    &.linha3 {
+      transition: all 0.3s ease-in-out;
+    }
+
+    &.expand-linha1 {
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    &.hide-linha2 {
+      opacity: 0;
+    }
+
+    &.expand-linha3 {
+      transform: translateY(-8px) rotate(-45deg);
+    }
   }
 
   .menuSandwich {

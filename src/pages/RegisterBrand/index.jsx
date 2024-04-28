@@ -15,7 +15,6 @@ const RegisterBrand = () => {
 
   return (
     <div>
-      {/* <img src={texture} className="texture-registerbrand" alt="" /> */}
       <Header />
 
       <main>

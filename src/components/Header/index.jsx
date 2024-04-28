@@ -85,10 +85,19 @@ function Header() {
           </ul>
         )}
       </nav>
+
       <div className="menuButton" onClick={toggleMenu}>
-        <span className="linha"></span>
-        <span className="linha"></span>
-        <span className="linha"></span>
+        <span
+          className={`linha linha1 ${showMenu ? "expand-linha1" : ""}`}
+        ></span>
+        <span
+          className={`linha linha2 ${showMenu ? "hide-linha2" : ""}`}
+        ></span>
+        <span
+          className={`linha linha3 linha3-last ${
+            showMenu ? "expand-linha3" : ""
+          }`}
+        ></span>
       </div>
     </header>
   );
