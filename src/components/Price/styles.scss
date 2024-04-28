@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33.5rem;
+  width: 35rem;
   height: 28rem;
   border-radius: 17px;
   border: solid 1px white;
@@ -19,6 +19,7 @@
   .sub-caption {
     font-size: 0.7rem;
     padding: 0 0.2rem;
+    color: #d6d6d6;
   }
 
   #page-title {
@@ -29,7 +30,7 @@
 
   .price-item {
     height: 17rem;
-    width: 15rem;
+    width: 16rem;
     border-radius: 14px;
     border: solid 1px $color-yellow;
     display: flex;
@@ -74,7 +75,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
       }
     }
 
