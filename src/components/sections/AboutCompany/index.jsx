@@ -1,5 +1,4 @@
 import "./styles.scss";
-import texture from "../../../assets/texture.png";
 
 import imageLucas from "../../../assets/lucas-matheus.png";
 
@@ -31,8 +30,6 @@ const AboutCompany = () => {
           (INPI).
         </p>
       </div>
-
-      <img className="texture" src={texture} alt="textura do fundo da página" />
     </section>
   );
 };

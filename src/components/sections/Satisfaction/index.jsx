@@ -1,6 +1,5 @@
 import "./styles.scss";
 import magnusWhiteLogo from "../../../assets/magnus-white-logo.svg";
-import texture from "../../../assets/texture.png";
 
 const Satisfaction = () => {
   return (
@@ -30,8 +29,6 @@ const Satisfaction = () => {
           antes que alguém registre por você
         </button>
       </div>
-
-      <img className="texture" src={texture} alt="textura do fundo da página" />
     </section>
   );
 };

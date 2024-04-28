@@ -1,6 +1,5 @@
 import "./styles.scss";
 import whatsappIcon from "../../../assets/whatsapp-icon.png";
-import texture from "../../../assets/texture.png";
 
 const CustomerService = () => {
   return (
@@ -25,8 +24,6 @@ const CustomerService = () => {
           Fale com a gente
         </button>
       </div>
-
-      <img className="texture" src={texture} alt="textura do fundo da página" />
     </section>
   );
 };

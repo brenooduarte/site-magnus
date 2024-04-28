@@ -57,28 +57,18 @@
       }
     }
   }
-
-  .texture {
-    opacity: 0.9;
-    object-fit: cover;
-    width: 100%;
-    height: 56rem;
-    position: absolute;
-    z-index: 1;
-    transform: scaleX(-1);
-  }
 }
 
 @media screen and (max-width: 370px) {
   #service-section {
     #service-content {
       h1 {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
       }
 
       #service-container {
         .service {
-          width: 26rem;
+          width: 29rem;
           height: 4.6rem;
           font-size: 1.3rem;
         }

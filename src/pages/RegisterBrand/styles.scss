@@ -8,20 +8,28 @@
   color: white;
 }
 
+.texture-registerbrand {
+  opacity: 0.9;
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 159.5rem;
+  z-index: -1;
+}
+
 main {
   display: flex;
-  //   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: absolute;
   padding: 0 2rem;
-  top: 6.5rem;
   z-index: 1;
-  height: 150rem;
+  height: 153rem;
   width: 100%;
 
   h1 {
-    margin-bottom: 5rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
     text-align: center;
     font-size: 2.4rem;
     color: $color-yellow;
@@ -60,12 +68,4 @@ main {
   #text-register-brand {
     margin-top: 2rem;
   }
-}
-
-.texture {
-  opacity: 0.9;
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  z-index: -1;
 }

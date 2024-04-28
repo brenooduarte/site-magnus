@@ -1,5 +1,5 @@
 #footer-section {
-  height: 32rem;
+  height: 28rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,15 +34,5 @@
       height: 5rem;
       object-fit: cover;
     }
-  }
-
-  .texture {
-    position: absolute;
-    opacity: 0.9;
-    object-fit: cover;
-    width: 100%;
-    height: 32rem;
-    z-index: -1;
-    transform: scaleX(-1);
   }
 }

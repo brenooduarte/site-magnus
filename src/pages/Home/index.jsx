@@ -8,13 +8,30 @@ import Testimonial from "../../components/sections/Testimonial/index.jsx";
 import AboutCompany from "../../components/sections/AboutCompany/index.jsx";
 import Footer from "../../components/sections/Footer/index.jsx";
 
+import texture1 from "../../assets/texture1.png";
+import texture2 from "../../assets/texture2.png";
+
 const Home = () => {
   return (
     <>
       <Initial />
+
+      <img
+        className="texture1"
+        src={texture1}
+        alt="textura do fundo da página"
+      />
+
       <Satisfaction />
       <Benefits />
       <Qualities />
+
+      <img
+        className="texture2"
+        src={texture2}
+        alt="textura do fundo da página"
+      />
+
       <CustomerService />
       <Testimonial />
       <AboutCompany />

@@ -1,0 +1,26 @@
+@import "/src/global.scss";
+
+.service-price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+
+  p {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
+  button {
+    font-family: "Libre Baskerville", "Kumbh Sans", sans-serif;
+    padding: 1rem;
+    width: 21rem;
+    background-color: $color-yellow;
+    border: none;
+    border-radius: 10px;
+  }
+
+  button:hover {
+    transform: scale(1.03);
+  }
+}

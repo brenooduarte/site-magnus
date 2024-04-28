@@ -1,5 +1,4 @@
 import "./styles.scss";
-import texture from "../../../assets/texture.png";
 import magnusLogo from "../../../assets/magnus-yellow-logo.svg";
 import linkedinLogo from "../../../assets/footer-icons/linkedin.png";
 import whatsappLogo from "../../../assets/footer-icons/whatsapp.png";
@@ -25,8 +24,6 @@ const Footer = () => {
           <div className="footer-icons"></div>
         </div>
       </div>
-
-      <img className="texture" src={texture} alt="textura do fundo da página" />
     </section>
   );
 };

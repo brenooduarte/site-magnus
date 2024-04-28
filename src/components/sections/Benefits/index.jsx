@@ -1,5 +1,4 @@
 import "./styles.scss";
-import texture from "../../../assets/texture.png";
 import Card from "../../Card/index.jsx";
 import Credibility from "../../../assets/card-images/credibility-mobile.png";
 import Security from "../../../assets/card-images/security-mobile.png";
@@ -56,19 +55,6 @@ const Benefits = () => {
             }
           />
         </div>
-      </div>
-
-      <div className="textures">
-        <img
-          className="texture"
-          src={texture}
-          alt="textura do fundo da página"
-        />
-        <img
-          className="texture"
-          src={texture}
-          alt="textura do fundo da página"
-        />
       </div>
     </section>
   );

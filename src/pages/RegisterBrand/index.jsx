@@ -1,20 +1,21 @@
 import "./styles.scss";
-import texture from "../../assets/texture-registerbrand.png";
 import Header from "../../components/Header";
-import Price from "../../components/Price";
+import ServicePrice from "../../components/ServicePrice";
+import texture from "../../assets/texture-registerbrand.png";
 
 const RegisterBrand = () => {
-  const INPItaxes = [142.0, 355.0];
+  const INPItaxes = [142, 355];
   const INPItaxesCaptions = [
     "(Valor para MEI, ME, EPP, Cooperativas, Associações e Instituições de Ensino)",
     "(Valor para empresas de médio e grande porte)",
   ];
 
-  const fees = [800.0];
-  const feesCaptions = ["Parcelado no cartão ou À vista com 10% de desconto"];
+  const fees = [800];
+  const conjunction = "ou";
 
   return (
     <div>
+      {/* <img src={texture} className="texture-registerbrand" alt="" /> */}
       <Header />
 
       <main>
@@ -68,15 +69,15 @@ const RegisterBrand = () => {
           SUAS MARCAS
         </h3>
 
-        <Price
+        <ServicePrice
           INPItaxes={INPItaxes}
           INPItaxesCaptions={INPItaxesCaptions}
           fees={fees}
-          feesCaptions={feesCaptions}
+          conjunction={conjunction}
         />
-      </main>
 
-      <img className="texture" src={texture} alt="textura do fundo da página" />
+        <img src={texture} className="texture-registerbrand" alt="" />
+      </main>
     </div>
   );
 };

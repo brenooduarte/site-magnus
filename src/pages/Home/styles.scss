@@ -1,1 +1,41 @@
 @import "/src/global.scss";
+
+.texture2 {
+  opacity: 0.9;
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 206rem;
+}
+
+.texture1 {
+  opacity: 0.9;
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 192rem;
+}
+
+@media screen and (min-width: 369px) {
+  .texture2 {
+    height: 207rem;
+  }
+}
+
+@media screen and (min-width: 378px) {
+  .texture2 {
+    height: 210rem;
+  }
+}
+
+@media screen and (min-width: 406px) {
+  .texture2 {
+    height: 211rem;
+  }
+}
+
+@media screen and (min-width: 424px) {
+  .texture2 {
+    height: 226rem;
+  }
+}

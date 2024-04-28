@@ -1,6 +1,5 @@
 import "./styles.scss";
 import Slide from "../../TestimonialSlide/index.jsx";
-import texture from "../../../assets/texture.png";
 
 import customer01 from "../../../assets/testimonial-images/customer-photo/customer01.png";
 import customer02 from "../../../assets/testimonial-images/customer-photo/customer02.png";
@@ -101,8 +100,6 @@ const Testimonial = () => {
         customerTestimonials={customerTestimonials}
         customerBrands={customerBrands}
       />
-
-      <img className="texture" src={texture} alt="textura do fundo da página" />
     </section>
   );
 };

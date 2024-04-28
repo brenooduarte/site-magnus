@@ -13,7 +13,7 @@ const Card = ({ photo, alt, title, description }) => {
       className="card"
     >
       <div className="info-card">
-        <h2>{title}</h2>
+        <h3 className="card-title">{title}</h3>
         <p>{description}</p>
       </div>
       <img src={photo} alt={alt} />
