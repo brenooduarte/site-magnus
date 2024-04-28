@@ -8,7 +8,7 @@ const BrandRejected = () => {
   const INPItaxes = [475, 298];
   const INPItaxesCaptions = [
     "(Taxa federal para depósito do recurso contra o indeferimento)",
-    "(Taxa federal para emissão do certificado de registro da marca)",
+    "(Taxa federal para emissão do certificado de registro da marca) // * A taxa para emissão do certificado pode variar conforme  o porte da empresa ou segmento de atuação",
   ];
 
   const fees = [800];

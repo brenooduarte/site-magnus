@@ -22,7 +22,19 @@ const Price = ({
             INPItaxes.map((tax, index) => (
               <div key={index}>
                 <span className="price">R$ {tax},00</span>
-                <span className="taxe-caption">{INPItaxesCaptions[index]}</span>
+                <span className="taxe-caption">
+                  {INPItaxesCaptions[index].includes("//") ? (
+                    <>
+                      {INPItaxesCaptions[index].split("//")[0]}
+                      <span className="break-line" />
+                      <span className="sub-caption">
+                        {INPItaxesCaptions[index].split("//")[1]}
+                      </span>
+                    </>
+                  ) : (
+                    INPItaxesCaptions[index]
+                  )}
+                </span>
                 {index !== INPItaxes.length - 1 && (
                   <span className="conjunction"> {conjunction} </span>
                 )}

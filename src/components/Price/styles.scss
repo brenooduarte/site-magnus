@@ -10,6 +10,17 @@
   border-radius: 17px;
   border: solid 1px white;
 
+  .break-line {
+    display: inline-block;
+    height: 0.4rem;
+    width: 100%;
+  }
+
+  .sub-caption {
+    font-size: 0.7rem;
+    padding: 0 0.2rem;
+  }
+
   #page-title {
     font-size: 1.8rem;
     margin-top: 0;
@@ -25,7 +36,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.2rem;
     padding-top: 1.7rem;
 
     div {
@@ -61,6 +71,8 @@
 
     #inpi-taxes {
       .taxe-caption {
+        display: flex;
+        flex-direction: column;
         text-align: center;
         font-size: 0.8rem;
       }
