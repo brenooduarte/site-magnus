@@ -24,10 +24,10 @@ const RegisterBrand = () => {
         </h1>
 
         <p>
-          A marca é o ativo mais valioso de uma empresa, é o seu dna, por onde
+          A marca é o ativo mais valioso de uma empresa, é o seu DNA, por onde
           as pessoas reconhecem e se conectam ao negócio. mas apesar da sua
           grande importância, o que muitos empreendedores não sabem é que
-          posssuir cnpj, site ou perfil na rede social não significa que ele
+          posssuir CNPJ, site ou perfil na rede social não significa que ele
           seja dono da marca que utiliza.
         </p>
 
@@ -61,13 +61,15 @@ const RegisterBrand = () => {
           durante o processo, garantindo o sucesso do pedido de registro.
         </p>
 
-        <h3 className="margin-4-0 color-yellow">
+        {/* <h3 className="margin-4-0 color-yellow">
           NOSSA MISSÃO É AJUDAR PESSOAS <br />
           E EMPRESAS A SE TORNAREM AS <br />
           ÚNICAS E LEGÍTIMAS DONAS DE <br />
           SUAS MARCAS
-        </h3>
+        </h3> */}
 
+        <br />
+        <br />
         <ServicePrice
           INPItaxes={INPItaxes}
           INPItaxesCaptions={INPItaxesCaptions}

@@ -27,7 +27,7 @@ const BrandRejected = () => {
 
         <div id="info">
           <h3>E AGORA?</h3>
-          <p>Calma, ainda não é o fim.</p>
+          <p>✋ Calma, ainda não é o fim.</p>
           <p>
             Podemos te ajudar a reverter essa <br />
             decisão do INPI

@@ -39,12 +39,12 @@ const customerPhotos = [
 const customerNames = [
   "Valter Souza",
   "Andrea",
-  "Dr. Aline Sâmara",
+  "Dra. Aline Sâmara",
   "Ivonielson",
   "Jaelson Ramos",
   "Jerbson Alves",
   "Ediekes Lopes",
-  "Jaqueline Oliveira",
+  "Paulo Brandão",
   "Daniel Moura",
   "André Rodrigues",
 ];
@@ -57,8 +57,8 @@ const customerCompanies = [
   "Proprietário da Jaelson Salgados",
   "Proprietário da Atualize Telecom",
   "Proprietário da Escola Doce Encanto",
-  "Proprietária da JP Tempero Cheiro Bom",
-  "CEO da SIMEP",
+  "Proprietário da JP Tempero Cheiro Bom",
+  "CEO do SIMEP",
   "Proprietário da Savory Massas",
 ];
 
@@ -67,11 +67,11 @@ const customerTestimonials = [
   "“Eu já havia tentando registrar minha marca. Contratei uma empresa que simplesmente esqueceu do meu processo. Fiquei tão revoltada que decidi deixar tudo pra lá. Mas, certo dia recebi uma carta me alertando que eu estava usando uma marca que já era registrada e me pedindo para parar com o uso da minha marca imediatamente. Fiquei desesperada, mas conseguimos resolver a situação. Agradeço a Deus e a Lucas, dono da Magnus, que apareceu no momento que eu mais precisava.“",
   "“Escolhemos a Magnus para registrar a Alilab porque sabíamos do histórico da empresa. Precisávamos de alguém em que pudéssemos confiar que tudo daria certo. Estamos extremamente satisfeitos com o serviço prestado e seguros já que nossa marca está registrada.”",
   "“Nossa empresa cresceu muito nesses últimos anos e percebemos a necessidade de ter nossa marca registrada. Pesquisamos por empresas e quando falamos com a Magnus, logo de início sentimos que podíamos confiar nela. O atendimento foi excelente.”",
-  "“Minha empresa está há mais de 10 anos no mercado. Temos um nome e uma reputação a zelar. Nos tornamos a maior produtora de salgados da cidade e vendemos mais de 10 mil salgados por mês. Mas não sabia que precisava proteger minha marca. Só de pensar em perde-la, fiquei assustado. Escolhi a Magnus pra me ajudar nesse processo de registro e estou inteiramente satisfeito com o resultado.”",
-  "“A gente não sabe o valor da nossa marca até perde-la e foi por isso que eu quase passei. Foi um momento muito difícil para a empresa. Felizmente a Magnus foi como aquela luz no fim do túnel que renovou nossas esperanças. Conseguimos registrar nossa marca e hoje estamos seguros de quem ninguém tira ela da gente.”",
+  "“Minha empresa está há mais de 10 anos no mercado. Temos um nome e uma reputação a zelar. Nos tornamos a maior produtora de salgados da cidade e vendemos mais de 10 mil salgados por mês. Mas não sabia que precisava proteger minha marca. Só de pensar em perdê-la, fiquei assustado. Escolhi a Magnus pra me ajudar nesse processo de registro e estou inteiramente satisfeito com o resultado.”",
+  "“A gente não sabe o valor da nossa marca até perdê-la e foi por isso que eu quase passei. Foi um momento muito difícil para a empresa. Felizmente a Magnus foi como aquela luz no fim do túnel que renovou nossas esperanças. Conseguimos registrar nossa marca e hoje estamos seguros de quem ninguém tira ela da gente.”",
   "“Estávamos recebendo muitas ligações de empresas oferecendo para registrar nossa marca. Mas estávamos com receio pois não tínhamos referencia dessas empresas. Então pedimos indicação a amigos que nos apresentaram à Magnus. Rapidamente já tínhamos nosso pedido de registro protocolado.”",
   "“Conhecemos a Magnus através de uma outra empresa que já havia registrado a marca com eles. Entramos em contato e logo iniciamos o processo de registro da nossa marca. Desde o atendimento até a realização do serviço, tudo feito com muita excelência e celeridade.”",
-  "“Nossa experiência ao contratar Magnus para registrar nossa marca foi a melhor possível. Atendimento excelente, rapidez no serviço e ótimo custo benefício. Sempre que alguém nos pede indicação de alguma empresa para registrar sua marca, indicamos a Magnus sem pensar duas vezes.”",
+  "“Nossa experiência ao contratar a Magnus para registrar nossa marca foi a melhor possível. Atendimento excelente, rapidez no serviço e ótimo custo benefício. Sempre que alguém nos pede indicação de alguma empresa para registrar sua marca, indicamos a Magnus sem pensar duas vezes.”",
   "“Antes de abrir minha empresa uma das preocupações era em relação ao nome da marca. Queria algo simples, mas que ainda não estivesse sendo usado. Contratei a Magnus para me ajudar e encontramos um nome disponível e que eu pudesse usar sem me preocupar depois. Fizemos o registro e hoje posso dizer que sou dono da minha marca.”",
 ];
 

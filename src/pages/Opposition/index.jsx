@@ -33,7 +33,7 @@ const Opposition = () => {
         </div>
 
         <p>
-          Após o depósito da marca no site do INPI, ela avaliação passa por 3
+          Após o depósito da marca no site do INPI, sua avaliação passa por 3
           etapas:
         </p>
 

@@ -6,6 +6,7 @@
   object-fit: cover;
   width: 100%;
   height: 206rem;
+  z-index: -1;
 }
 
 .texture1 {
@@ -14,6 +15,7 @@
   object-fit: cover;
   width: 100%;
   height: 192rem;
+  z-index: -1;
 }
 
 @media screen and (min-width: 369px) {
