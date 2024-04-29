@@ -1,4 +1,5 @@
 import "./styles.scss";
+import { Link } from "react-router-dom";
 import whatsappIcon from "../../../assets/whatsapp-icon.png";
 
 const CustomerService = () => {
@@ -8,9 +9,15 @@ const CustomerService = () => {
         <h1>COMO PODEMOS TE AJUDAR</h1>
 
         <div id="service-container">
-          <span className="service">REGISTRAR MINHA MARCA</span>
-          <span className="service">FUI ALVO DE OPOSIÇÃO</span>
-          <span className="service">MARCA FOI INDEFERIDA</span>
+          <Link to="/registrar-marca" className="service">
+            REGISTRAR MINHA MARCA
+          </Link>
+          <Link to="/oposicao" className="service">
+            FUI ALVO DE OPOSIÇÃO
+          </Link>
+          <Link to="/marca-indeferida" className="service">
+            MARCA FOI INDEFERIDA
+          </Link>
           <span className="service">REGISTRAR SOFTWARE</span>
           <span className="service">CONSULTORIA</span>
         </div>

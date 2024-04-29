@@ -4,9 +4,23 @@ import RegisterBrand from "./pages/RegisterBrand/index.jsx";
 import BrandRejected from "./pages/BrandRejected/index.jsx";
 import Opposition from "./pages/Opposition/index.jsx";
 
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+const ScrollToTopOnNavigate = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTopOnNavigate />
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="/registrar-marca" element={<RegisterBrand />} />

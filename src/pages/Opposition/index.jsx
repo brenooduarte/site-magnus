@@ -47,13 +47,13 @@ const Opposition = () => {
 
             <CardStage
               position="card-center"
-              text="Nessa fase o INPI fará uma avaliação formal do processo para verificar se foi preenchido corretamente."
+              text="Neste estágio, há um prazo de 60 dias para empresas se oporem ao registro da marca."
               stageNumber="2"
             />
 
             <CardStage
               position="card-rigth"
-              text="Nessa fase o INPI fará uma avaliação formal do processo para verificar se foi preenchido corretamente."
+              text="Nessa última etapa o INPI avalia detalhadamente o pedido de registro da marca e publica sua decisão."
               stageNumber="3"
             />
           </div>
@@ -97,7 +97,7 @@ const Opposition = () => {
           <p>
             A manifestação de oposição não é tão comum. Inclusive, grande parte
             dos processos seguem sem sofrer oposição. Mas, caso aconteça, é
-            preciso realizar a DEFESA DE OPOSIÇÃO, também dentro do prazo de 60
+            preciso realizar a DEFESA DE OPOSIÇÃO, também dentro do prazo de 60
             dias. Caso a defesa não seja protocolada dentro desse prazo, não há
             a possibilidade de protocolar depois e seu processo poderá ser
             INDEFERIDO e você precisará iniciar tudo novamente.
