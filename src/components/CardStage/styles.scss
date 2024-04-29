@@ -1,0 +1,56 @@
+@import "/src/global.scss";
+
+.card-left {
+  align-self: start;
+}
+
+.card-center {
+  align-self: center;
+}
+
+.card-rigth {
+  align-self: end;
+}
+
+.card-stage {
+  .card-text {
+    font-size: 1rem;
+    font-family: 600;
+    padding-left: 4.5rem;
+    padding-right: 1rem;
+    width: 26rem;
+  }
+
+  .card-stage-retangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.4rem;
+    width: 26.5rem;
+    border-radius: 10px;
+    background-color: $color-yellow;
+    color: $color-black;
+    border: 1px solid white;
+
+    .card-stage-circle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: absolute;
+      height: 5.9rem;
+      width: 5.9rem;
+      border-radius: 50%;
+      background-color: #353535;
+      color: white;
+      margin-right: 25rem;
+      font-size: 1.2rem;
+
+      span {
+        font-size: 2.5rem;
+        height: 2.5rem;
+      }
+    }
+  }
+}

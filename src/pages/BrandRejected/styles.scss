@@ -1,7 +1,7 @@
 @import "/src/global.scss";
 
 #brand-rejected {
-  height: 180rem;
+  height: 180.5rem;
 
   #arrow-icon {
     transform: rotate(90deg);
@@ -50,7 +50,7 @@
     position: absolute;
     object-fit: cover;
     width: 100%;
-    height: 180rem;
+    height: 180.5rem;
     z-index: -1;
   }
 }
