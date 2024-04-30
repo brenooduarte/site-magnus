@@ -2,6 +2,7 @@ import "./styles.scss";
 import Header from "../../components/Header";
 import ServicePrice from "../../components/ServicePrice";
 import texture from "../../assets/texture-registerbrand.png";
+import imageRegisterBrand from "../../assets/image-register-brand.png";
 
 const RegisterBrand = () => {
   const INPItaxes = [142, 355];
@@ -31,10 +32,7 @@ const RegisterBrand = () => {
           seja dono da marca que utiliza.
         </p>
 
-        <h3 className="margin-4-0">
-          SÓ É DONO DE UMA MARCA <br />
-          QUEM A REGISTRA NO INPI
-        </h3>
+        <img className="image-register-brand" src={imageRegisterBrand} />
 
         <h2>
           RISCOS DE UTILIZAR UMA <br />

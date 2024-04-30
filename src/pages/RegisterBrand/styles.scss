@@ -17,7 +17,7 @@
   position: absolute;
   object-fit: cover;
   width: 100%;
-  height: 148.5rem;
+  height: 167rem;
   z-index: -1;
 }
 
@@ -37,6 +37,11 @@ main {
     text-align: center;
     font-size: 2.4rem;
     color: $color-yellow;
+  }
+
+  .image-register-brand {
+    width: 32rem;
+    padding: 3rem 0;
   }
 
   p {
