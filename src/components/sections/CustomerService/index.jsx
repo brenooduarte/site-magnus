@@ -18,7 +18,9 @@ const CustomerService = () => {
           <Link to="/marca-indeferida" className="service">
             MARCA FOI INDEFERIDA
           </Link>
-          <span className="service">REGISTRAR SOFTWARE</span>
+          <Link to="/registrar-software" className="service">
+            REGISTRAR SOFTWARE
+          </Link>
           <span className="service">CONSULTORIA</span>
         </div>
 

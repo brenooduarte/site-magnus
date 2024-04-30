@@ -61,13 +61,6 @@ const RegisterBrand = () => {
           durante o processo, garantindo o sucesso do pedido de registro.
         </p>
 
-        {/* <h3 className="margin-4-0 color-yellow">
-          NOSSA MISSÃO É AJUDAR PESSOAS <br />
-          E EMPRESAS A SE TORNAREM AS <br />
-          ÚNICAS E LEGÍTIMAS DONAS DE <br />
-          SUAS MARCAS
-        </h3> */}
-
         <br />
         <br />
         <ServicePrice
