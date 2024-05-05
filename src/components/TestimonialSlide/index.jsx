@@ -21,6 +21,7 @@ const TestimonialSlide = ({
       spaceBetween={50}
       slidesPerView={1}
       speed={1200}
+      loop={true}
       navigation={true}
       autoplay={{
         delay: 10000,

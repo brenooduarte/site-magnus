@@ -1,6 +1,5 @@
 import "./styles.scss";
-import backgroundImage from "../../../assets/image-initial.jpg";
-import magnusWhiteLogo from "../../../assets/magnus-white-logo.svg";
+import backgroundImage from "../../../assets/image-initial-desktop.jpg";
 import whatsappIcon from "../../../assets/whatsapp-icon.png";
 import Header from "../../Header";
 

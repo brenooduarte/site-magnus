@@ -2,7 +2,7 @@ import "./styles.scss";
 import Header from "../../components/Header";
 import ServicePrice from "../../components/ServicePrice";
 import texture from "../../assets/texture-registerbrand.png";
-import imageRegisterBrand from "../../assets/image-register-brand.png";
+import imageRegisterBrand from "../../assets/image-register-brand.jpg";
 
 const RegisterBrand = () => {
   const INPItaxes = [142, 355];
