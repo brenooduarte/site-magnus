@@ -19,7 +19,7 @@ const Home = () => {
       <Initial />
 
       <img
-        className="textureDesktop"
+        className="texture-desktop1"
         src={textureDesktop}
         alt="textura do fundo da página"
       />

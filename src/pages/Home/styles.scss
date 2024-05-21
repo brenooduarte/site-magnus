@@ -42,25 +42,27 @@
   }
 }
 
-.textureDesktop {
-  display: none; /* Initially hide the desktop texture */
+.texture-desktop1 {
+  display: none;
+}
+
+.texture-desktop2 {
+  display: none;
 }
 
 @media screen and (min-width: 870px) {
-  .texture1 {
-    display: none;
-  }
-
+  .texture1,
   .texture2 {
     display: none;
   }
 
-  .textureDesktop {
+  .texture-desktop1 {
     display: block;
     opacity: 0.3;
     position: absolute;
     object-fit: cover;
     width: 100%;
+    top: 0;
     z-index: -1;
   }
 }

@@ -27,7 +27,9 @@ const CustomerService = () => {
   return (
     <section id="service-section">
       <div id="service-content">
-        <h1>COMO PODEMOS TE AJUDAR</h1>
+        <h1>
+          COMO PODEMOS TE AJUDAR <span>?</span>
+        </h1>
 
         <div id="service-container">
           {forDesktop ? (
