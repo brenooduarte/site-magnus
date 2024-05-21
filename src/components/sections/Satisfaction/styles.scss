@@ -32,6 +32,7 @@
 
     p {
       margin: 1rem 0;
+      font-weight: 600;
     }
 
     span {
@@ -96,6 +97,60 @@
       height: 5.2rem;
       width: 90%;
       border-radius: 2.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 870px) {
+  #satisfaction-section {
+    height: 48rem;
+
+    #satisfaction-container {
+      gap: 3rem;
+
+      .satisfaction-info {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+
+        .satisfaction-text {
+          display: flex;
+          flex-direction: column;
+          gap: 2.3rem;
+          align-items: start;
+        }
+      }
+
+      .satisfaction-magnus-logo {
+        height: 8rem;
+        width: 23rem;
+        margin-top: 2rem;
+      }
+
+      h3 {
+        font-size: 3.6rem;
+        margin-bottom: 0;
+      }
+
+      p {
+        margin: 0;
+        font-size: 2.55rem;
+        font-weight: 600;
+      }
+
+      span {
+        font-size: 12rem;
+        line-height: 1.05;
+      }
+    }
+
+    button {
+      margin-top: 2.5rem;
+      font-size: 1.9rem;
+      height: 7.3rem;
+      width: 49%;
+      border-radius: 3.5rem;
+      filter: drop-shadow(0px 4px 18px rgba(0, 0, 0, 0.6));
     }
   }
 }

@@ -34,6 +34,22 @@ function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 870) {
+        setShowMenu(true);
+      } else {
+        setShowMenu(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <header
       className={`header ${showMenu ? "background" : ""}${
@@ -48,12 +64,16 @@ function Header() {
         />
       </Link>
       <nav className={`menuSandwich ${showMenu ? "show" : ""}`}>
-        <Link to="/">Home</Link>
-        <Link to="#">Contatos</Link>
+        <Link to="#">Blog</Link>
+        <Link to="#">Parceria</Link>
+        <Link id="quem-somos-link" to="#">
+          Quem Somos
+        </Link>
         <Link
           id="option-arrow"
           onClick={() => {
-            toggleServicesDropdown(), toggleArrow();
+            toggleServicesDropdown();
+            toggleArrow();
           }}
         >
           <span

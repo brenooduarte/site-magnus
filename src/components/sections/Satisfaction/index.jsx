@@ -11,13 +11,17 @@ const Satisfaction = () => {
           alt="Logotipo branco Magnus"
         />
 
-        <div>
-          <h3>A única que tem</h3>
-          <span> 100% </span>
+        <div className="satisfaction-info">
+          <div>
+            <h3>A única que tem</h3>
+            <span> 100% </span>
+          </div>
 
-          <p>De sucesso no registro das marcas</p>
-          <p>De recomendação pelos clientes</p>
-          <p>De todos os clientes satisfeitos</p>
+          <div className="satisfaction-text">
+            <p>De sucesso no registro das marcas</p>
+            <p>De recomendação pelos clientes</p>
+            <p>De todos os clientes satisfeitos</p>
+          </div>
         </div>
 
         <button

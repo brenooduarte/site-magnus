@@ -20,7 +20,7 @@ const Benefits = () => {
           <Card
             photo={Property}
             alt={"Homem escrevendo em documento"}
-            title={"Propriedade"}
+            title={"PROPRIEDADE"}
             description={
               "Uma marca sem registro é uma marca sem dono! Somente registrando é que uma pessoa fisica ou jurídica é considerada legalmente proprietária de uma marca."
             }
@@ -31,7 +31,7 @@ const Benefits = () => {
             alt={
               "Um cadeado aberto em meio a teclas de computador espalhadas sobre uma mesa"
             }
-            title={"Segurança"}
+            title={"SEGURANÇA"}
             description={
               "Uma marca registrada é uma marca protegida! Seu dono não precisa se preocupar contra plágio e uso sem permissão de sua marca."
             }
@@ -40,7 +40,7 @@ const Benefits = () => {
           <Card
             photo={Exclusivity}
             alt={"Homem vestido terno"}
-            title={"Exclusividade"}
+            title={"EXCLUSIVIDADE"}
             description={
               "Após o registro, o proprietário tem direito ao uso exclusivo da marca em todo território nacional. Isso assegura que, em todo o país, somente ele possa utilizá-la."
             }
@@ -49,7 +49,7 @@ const Benefits = () => {
           <Card
             photo={Credibility}
             alt={"Aperto de mãos"}
-            title={"Credibilidade"}
+            title={"CREDIBILIDADE"}
             description={
               "Os consumidores e outras empresas dão maior credibilidade ao negócio que tem sua marca registrada, mostrando um diferencial no mercado."
             }

@@ -41,3 +41,26 @@
     height: 226rem;
   }
 }
+
+.textureDesktop {
+  display: none; /* Initially hide the desktop texture */
+}
+
+@media screen and (min-width: 870px) {
+  .texture1 {
+    display: none;
+  }
+
+  .texture2 {
+    display: none;
+  }
+
+  .textureDesktop {
+    display: block;
+    opacity: 0.3;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+  }
+}
