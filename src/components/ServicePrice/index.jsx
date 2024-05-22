@@ -1,6 +1,6 @@
 import Price from "../Price";
 import "./styles.scss";
-import whatsappIcon from "../../assets/whatsapp-icon.png";
+import Button from "../Button";
 
 const ServicePrice = ({
   INPItaxes,
@@ -23,14 +23,7 @@ const ServicePrice = ({
         empresas a se tornarem as únicas <br />e legítimas donas de suas marcas.
       </p>
 
-      <button
-        onClick={() =>
-          window.open("https://wa.me/message/3UDZHQRBD4VDD1", "_blank")
-        }
-      >
-        <img src={whatsappIcon} alt="Ícone Whatsapp" />
-        Fale com a gente
-      </button>
+      <Button />
     </div>
   );
 };

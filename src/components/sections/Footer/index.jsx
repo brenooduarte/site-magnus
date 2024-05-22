@@ -84,8 +84,9 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              {" "}
-              <span className="service">Consultoria</span>
+              <Link to="/consultoria" className="service">
+                Consultoria
+              </Link>
             </li>
           </ul>
         </div>

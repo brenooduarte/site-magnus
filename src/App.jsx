@@ -6,6 +6,7 @@ import RegisterBrand from "./pages/RegisterBrand/index.jsx";
 import BrandRejected from "./pages/BrandRejected/index.jsx";
 import Opposition from "./pages/Opposition/index.jsx";
 import RegisterSoftware from "./pages/RegisterSoftware/index.jsx";
+import Consultancy from "./pages/Consultancy/index.jsx";
 
 const ScrollToTopOnNavigate = () => {
   const { pathname } = useLocation();
@@ -27,6 +28,7 @@ function App() {
         <Route path="/marca-indeferida" element={<BrandRejected />} />
         <Route path="/oposicao" element={<Opposition />} />
         <Route path="/registrar-software" element={<RegisterSoftware />} />
+        <Route path="/consultoria" element={<Consultancy />} />
       </Routes>
     </BrowserRouter>
   );

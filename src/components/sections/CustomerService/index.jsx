@@ -2,8 +2,8 @@ import "./styles.scss";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-import whatsappIcon from "../../../assets/whatsapp-icon.png";
 import coroaLogoMagnus from "../../../assets/coroa-logo-magnus.png";
+import Button from "../../Button";
 
 const CustomerService = () => {
   const [forDesktop, setForDesktop] = useState(false);
@@ -128,7 +128,7 @@ const CustomerService = () => {
                 </p>
 
                 <img className="coroa-logo-magnus" src={coroaLogoMagnus} />
-                <Link to="/registrar-software" className="link-saiba-mais">
+                <Link to="/consultoria" className="link-saiba-mais">
                   Saiba mais
                 </Link>
               </div>
@@ -147,19 +147,14 @@ const CustomerService = () => {
               <Link to="/registrar-software" className="service">
                 REGISTRAR SOFTWARE
               </Link>
-              <span className="service">CONSULTORIA</span>
+              <Link to="/consultoria" className="service">
+                CONSULTORIA
+              </Link>
             </>
           )}
         </div>
 
-        <button
-          onClick={() =>
-            window.open("https://wa.me/message/3UDZHQRBD4VDD1", "_blank")
-          }
-        >
-          <img src={whatsappIcon} alt="Ícone Whatsapp" />
-          Fale com a gente
-        </button>
+        <Button />
       </div>
     </section>
   );

@@ -10,14 +10,6 @@ const Initial = () => {
       <Header />
 
       <div id="info-container">
-        {/* <h1 id="initial-title">
-          Você é dono da sua {""}
-          <span>MARCA?</span>
-        </h1>
-        <h2 id="initial-subtitle">
-          Proteja sua marca com quem entende do assunto
-        </h2> */}
-
         <motion.h1
           id="initial-title"
           initial={{ y: 50 }}
@@ -48,15 +40,6 @@ const Initial = () => {
           <img src={whatsappIcon} alt="Ícone Whatsapp" />
           Fale com um especialista agora
         </motion.button>
-
-        {/* <button
-          onClick={() =>
-            window.open("https://wa.me/message/3UDZHQRBD4VDD1", "_blank")
-          }
-        >
-          <img src={whatsappIcon} alt="Ícone Whatsapp" />
-          Fale com um especialista agora
-        </button> */}
       </div>
 
       <img
