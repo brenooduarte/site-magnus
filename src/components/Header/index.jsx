@@ -66,11 +66,15 @@ function Header() {
       <nav className={`menuSandwich ${showMenu ? "show" : ""}`}>
         <Link to="#">
           Blog
-          <span className="em-desenvolvimento"> ( Em desenvolvimento )</span>
+          {window.innerWidth < 870 && (
+            <span className="em-desenvolvimento"> ( Em desenvolvimento )</span>
+          )}
         </Link>
         <Link to="#">
-          Parceria{" "}
-          <span className="em-desenvolvimento">( Em desenvolvimento )</span>
+          Parceria
+          {window.innerWidth < 870 && (
+            <span className="em-desenvolvimento"> ( Em desenvolvimento )</span>
+          )}
         </Link>
         <Link id="quem-somos-link" to="#">
           Quem Somos
