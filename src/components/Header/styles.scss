@@ -14,6 +14,12 @@
   top: 0;
 
   transition: background-color 0.3s ease-in-out;
+
+  .em-desenvolvimento {
+    font-size: 1rem;
+    color: $color-yellow;
+    font-weight: 100;
+  }
 }
 
 .header span {
@@ -37,10 +43,7 @@
   height: 5rem;
   padding: 0 1.5rem 0 7rem;
   width: 100%;
-}
-
-#option-arrow {
-  padding: 0 5rem;
+  gap: 1rem;
 }
 
 .magnus-logo {

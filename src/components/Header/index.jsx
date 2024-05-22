@@ -64,18 +64,24 @@ function Header() {
         />
       </Link>
       <nav className={`menuSandwich ${showMenu ? "show" : ""}`}>
-        <Link to="#">Blog</Link>
-        <Link to="#">Parceria</Link>
+        <Link to="#">
+          Blog
+          <span className="em-desenvolvimento"> ( Em desenvolvimento )</span>
+        </Link>
+        <Link to="#">
+          Parceria{" "}
+          <span className="em-desenvolvimento">( Em desenvolvimento )</span>
+        </Link>
         <Link id="quem-somos-link" to="#">
           Quem Somos
         </Link>
         <Link
-          id="option-arrow"
           onClick={() => {
             toggleServicesDropdown();
             toggleArrow();
           }}
         >
+          Serviços
           <span
             className={`arrow ${
               turnArrow ? "turn-on-dropdown-arrow" : "turn-off-dropdown-arrow"
@@ -83,7 +89,6 @@ function Header() {
           >
             <IoIosArrowForward />
           </span>
-          Serviços
         </Link>
         {showServicesDropdown && (
           <ul className="services-dropdown">

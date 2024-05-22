@@ -9,7 +9,7 @@ import AboutCompany from "../../components/sections/AboutCompany/index.jsx";
 import Footer from "../../components/sections/Footer/index.jsx";
 
 import texture1 from "../../assets/texture1.png";
-import texture2 from "../../assets/texture2.png";
+import texture2 from "../../assets/doidera.png";
 
 import textureDesktop from "../../assets/texture-desktop.png";
 
