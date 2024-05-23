@@ -6,6 +6,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/scss";
 import "swiper/css/autoplay";
 import "swiper/css/navigation";
+import { useState } from "react";
 
 const CARDS = 10;
 
@@ -16,35 +17,63 @@ const TestimonialSlide = ({
   customerTestimonials,
   customerBrands,
 }) => {
-  const cardList = (
-    <Swiper
-      spaceBetween={50}
-      slidesPerView={1}
-      speed={1200}
-      loop={true}
-      navigation={true}
-      autoplay={{
-        delay: 10000,
-        disableOnInteraction: false,
-      }}
-      modules={[Autoplay, Navigation]}
-    >
-      {Array.from({ length: CARDS }, (_, index) => (
-        <SwiperSlide key={index}>
-          <Card
-            key={index}
-            photo={customerPhotos[index]}
-            name={customerNames[index]}
-            company={customerCompanies[index]}
-            testimonial={customerTestimonials[index]}
-            brand={customerBrands[index]}
-          />
-        </SwiperSlide>
-      ))}
-    </Swiper>
+  return (
+    <div className="testimonial-slide">
+      {window.innerWidth < 870 ? (
+        <Swiper
+          spaceBetween={50}
+          slidesPerView={1}
+          speed={1200}
+          loop={true}
+          navigation={true}
+          autoplay={{
+            delay: 10000,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay, Navigation]}
+        >
+          {Array.from({ length: CARDS }, (_, index) => (
+            <SwiperSlide key={index}>
+              <Card
+                key={index}
+                photo={customerPhotos[index]}
+                name={customerNames[index]}
+                company={customerCompanies[index]}
+                testimonial={customerTestimonials[index]}
+                brand={customerBrands[index]}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      ) : (
+        <Swiper
+          spaceBetween={0}
+          slidesPerView={3}
+          speed={1200}
+          loop={true}
+          navigation={true}
+          autoplay={{
+            delay: 10000,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay, Navigation]}
+        >
+          {Array.from({ length: CARDS }, (_, index) => (
+            <SwiperSlide key={index}>
+              <Card
+                key={index}
+                photo={customerPhotos[index]}
+                name={customerNames[index]}
+                company={customerCompanies[index]}
+                testimonial={customerTestimonials[index]}
+                brand={customerBrands[index]}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      )}
+    </div>
   );
-
-  return <div className="testimonial-slide">{cardList}</div>;
 };
 
 export default TestimonialSlide;

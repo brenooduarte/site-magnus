@@ -4,6 +4,7 @@
   overflow: hidden;
   width: 36rem;
   overflow-x: scroll;
+  overflow: hidden;
 
   .swiper {
     height: 68rem;
@@ -17,16 +18,22 @@
 
     .swiper-button-next {
       color: white;
-      right: 0;
+      right: -6px;
       transform: scale(0.65);
       top: 20rem;
     }
 
     .swiper-button-prev {
       color: white;
-      left: 0;
+      left: -6px;
       transform: scale(0.65);
       top: 20rem;
     }
+  }
+}
+
+@media screen and (min-width: 870px) {
+  .testimonial-slide {
+    width: 105rem;
   }
 }
