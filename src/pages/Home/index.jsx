@@ -11,7 +11,7 @@ import Footer from "../../components/sections/Footer/index.jsx";
 import texture1 from "../../assets/texture1.png";
 import texture2 from "../../assets/texture2.png";
 
-import textureDesktop from "../../assets/texture-desktop.png";
+import textureDesktop from "../../assets/texture-desktop (1).png";
 
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
       <Initial />
 
       <img
-        className="texture-desktop1"
+        className="texture-desktop"
         src={textureDesktop}
         alt="textura do fundo da página"
       />

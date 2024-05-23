@@ -151,3 +151,44 @@
     }
   }
 }
+
+@media screen and (min-width: 870px) {
+  #about-section {
+    height: 31rem;
+    gap: 2rem;
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    #about-container {
+      flex-direction: row;
+      width: 80rem;
+      gap: 3rem;
+
+      .text-about-company {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+
+        p {
+          font-size: 1.5rem;
+
+          span {
+            font-size: 2rem;
+            font-weight: 600;
+          }
+        }
+      }
+
+      #image-lucas {
+        width: 21rem;
+        height: 31rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

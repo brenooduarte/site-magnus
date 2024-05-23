@@ -218,3 +218,50 @@
     }
   }
 }
+
+@media screen and (min-width: 400px) {
+  #consultancy-section {
+    .consultancy-cards {
+      gap: 5rem;
+      padding-bottom: 5rem;
+
+      .consultancy-card {
+        width: 36rem;
+
+        p {
+          width: 31rem;
+          font-size: 1.4rem;
+        }
+
+        .title-card-consultancy {
+          margin-top: 1rem;
+        }
+
+        .image-consultancy {
+          height: 17rem;
+        }
+
+        .second-image-consultancy {
+          height: 20rem;
+        }
+
+        .highlighted-title-card {
+          font-size: 1.7rem;
+          width: 26rem;
+        }
+
+        ul {
+          li {
+            font-size: 1.3rem;
+            margin: 0.8rem 0;
+            width: 29rem;
+          }
+        }
+
+        .botao-ver-mais {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}

@@ -42,11 +42,7 @@
   }
 }
 
-.texture-desktop1 {
-  display: none;
-}
-
-.texture-desktop2 {
+.texture-desktop {
   display: none;
 }
 
@@ -56,13 +52,13 @@
     display: none;
   }
 
-  .texture-desktop1 {
+  .texture-desktop {
     display: block;
     opacity: 0.3;
     position: absolute;
     object-fit: cover;
     width: 100%;
-    top: 0;
-    z-index: -1;
+    height: 471.5rem;
+    z-index: 0;
   }
 }
