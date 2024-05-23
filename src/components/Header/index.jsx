@@ -11,20 +11,6 @@ function Header() {
   const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const [turnArrow, setTurnArrow] = useState(false);
 
-  // const scrollToAboutSection = () => {
-  //   if (window.location.href)
-  //   window.location.href = "/";
-
-  // if (window.innerWidth < 870) {
-  //   toggleMenu();
-  // }
-
-  //   const aboutSection = document.getElementById("about-section");
-  //   aboutSection.scrollIntoView({
-  //     behavior: "smooth",
-  //   });
-  // };
-
   const scrollToAboutSection = () => {
     if (window.innerWidth < 870) {
       toggleMenu();

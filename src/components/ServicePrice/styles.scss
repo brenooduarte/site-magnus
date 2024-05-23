@@ -11,3 +11,11 @@
     font-size: 1.6rem;
   }
 }
+
+@media screen and (min-width: 870px) {
+  .service-price-container {
+    p {
+      font-size: 1.8rem;
+    }
+  }
+}

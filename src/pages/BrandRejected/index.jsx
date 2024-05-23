@@ -4,6 +4,8 @@ import ServicePrice from "../../components/ServicePrice";
 import texture from "../../assets/texture-brandrejected.png";
 import { IoIosArrowForward } from "react-icons/io";
 
+import textureDesktop from "../../assets/texture-desktop.png";
+
 const BrandRejected = () => {
   const INPItaxes = [475, 298];
   const INPItaxesCaptions = [
@@ -19,6 +21,11 @@ const BrandRejected = () => {
       <Header />
 
       <main id="brand-rejected">
+        <img
+          className="texture-brandrejected-desktop"
+          src={textureDesktop}
+          alt="texture"
+        />
         <h1>
           MINHA MARCA
           <br />
@@ -34,7 +41,7 @@ const BrandRejected = () => {
           </p>
         </div>
 
-        <div className="rejection-text">
+        <div className="rejection-text-top">
           <h2>
             POR QUE O INPI INDEFERIU <br />O MEU PROCESSO?
           </h2>
@@ -54,7 +61,7 @@ const BrandRejected = () => {
           <IoIosArrowForward />
         </span>
 
-        <div className="rejection-text">
+        <div className="rejection-text-bottom">
           <p>
             O primeiro passo para isso é identificar o motivo do indeferimento.
             E então apresentar os argumentos, via petição, demonstrando que a
@@ -88,7 +95,7 @@ const BrandRejected = () => {
           conjunction={conjunction}
         />
 
-        <img className="texture-brandrejected" src={texture} alt="" />
+        <img className="texture-brandrejected" src={texture} alt="texture" />
       </main>
     </div>
   );
