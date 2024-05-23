@@ -11,6 +11,27 @@ function Header() {
   const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const [turnArrow, setTurnArrow] = useState(false);
 
+  // const scrollToAboutSection = () => {
+  //   if (window.location.href)
+  //   window.location.href = "/";
+
+  // if (window.innerWidth < 870) {
+  //   toggleMenu();
+  // }
+
+  //   const aboutSection = document.getElementById("about-section");
+  //   aboutSection.scrollIntoView({
+  //     behavior: "smooth",
+  //   });
+  // };
+
+  const scrollToAboutSection = () => {
+    if (window.innerWidth < 870) {
+      toggleMenu();
+    }
+    window.location.href = "/#about-section";
+  };
+
   const toggleArrow = () => {
     setTurnArrow(!turnArrow);
   };
@@ -64,19 +85,19 @@ function Header() {
         />
       </Link>
       <nav className={`menuSandwich ${showMenu ? "show" : ""}`}>
-        <Link to="#">
+        <Link to="#" title="Em desenvolvimento">
           Blog
           {window.innerWidth < 870 && (
-            <span className="em-desenvolvimento"> ( Em desenvolvimento )</span>
+            <span className="em-desenvolvimento">( Em desenvolvimento )</span>
           )}
         </Link>
-        <Link to="#">
+        <Link to="#" title="Em desenvolvimento">
           Parceria
           {window.innerWidth < 870 && (
-            <span className="em-desenvolvimento"> ( Em desenvolvimento )</span>
+            <span className="em-desenvolvimento">( Em desenvolvimento )</span>
           )}
         </Link>
-        <Link id="quem-somos-link" to="#">
+        <Link id="quem-somos-link" onClick={scrollToAboutSection}>
           Quem Somos
         </Link>
         <Link

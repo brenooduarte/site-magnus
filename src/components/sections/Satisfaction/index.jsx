@@ -5,11 +5,13 @@ const Satisfaction = () => {
   return (
     <section id="satisfaction-section">
       <div id="satisfaction-container">
-        <img
-          className="satisfaction-magnus-logo"
-          src={magnusWhiteLogo}
-          alt="Logotipo branco Magnus"
-        />
+        {window.innerWidth < 870 && (
+          <img
+            className="satisfaction-magnus-logo"
+            src={magnusWhiteLogo}
+            alt="Logotipo branco Magnus"
+          />
+        )}
 
         <div className="satisfaction-info">
           <div>
