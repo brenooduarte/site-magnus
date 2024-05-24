@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import ServicePrice from "../../components/ServicePrice";
 import texture from "../../assets/texture-registersoftware.png";
 import imageRegisterSoftware from "../../assets/image-register-software.jpg";
+import textureDesktop from "../../assets/texture-desktop.png";
 
 const RegisterSoftware = () => {
   const INPItaxes = [185];
@@ -16,6 +17,12 @@ const RegisterSoftware = () => {
 
   return (
     <div>
+      <img
+        className="texture-registerbrand-desktop"
+        src={textureDesktop}
+        alt="texture"
+      />
+
       <Header />
 
       <main id="register-software">

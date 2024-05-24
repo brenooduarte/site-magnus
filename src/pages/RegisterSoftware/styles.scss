@@ -61,3 +61,19 @@
     z-index: -1;
   }
 }
+
+@media screen and (min-width: 870px) {
+  .texture-registersoftware {
+    display: none;
+  }
+
+  .texture-registersoftware-desktop {
+    display: block;
+    opacity: 0.3;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 192rem;
+    z-index: -1;
+  }
+}

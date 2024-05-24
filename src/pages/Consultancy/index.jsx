@@ -11,6 +11,7 @@ import cerebroLampada from "../../assets/cerebro-lampada.png";
 import detetiveInpi from "../../assets/detetive-inpi.png";
 
 import texture from "../../assets/texture2.png";
+import textureDesktop from "../../assets/texture-desktop.png";
 
 const Consultancy = () => {
   const [verMaisCard1, setVerMaisCard1] = useState(false);
@@ -31,6 +32,12 @@ const Consultancy = () => {
 
   return (
     <div>
+      <img
+        className="texture-consultancy-desktop"
+        src={textureDesktop}
+        alt="texture"
+      />
+
       <Header />
 
       <main id="consultancy-section">

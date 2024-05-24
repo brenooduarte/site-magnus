@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import ServicePrice from "../../components/ServicePrice";
 import texture from "../../assets/texture-registerbrand.png";
 import imageRegisterBrand from "../../assets/image-register-brand.jpg";
+import textureDesktop from "../../assets/texture-desktop.png";
 
 const RegisterBrand = () => {
   const INPItaxes = [142, 355];
@@ -16,9 +17,15 @@ const RegisterBrand = () => {
 
   return (
     <div>
+      <img
+        className="texture-registerbrand-desktop"
+        src={textureDesktop}
+        alt="texture"
+      />
+
       <Header />
 
-      <main>
+      <main className="register-brand-section">
         <h1>
           REGISTRAR <br />
           MINHA MARCA

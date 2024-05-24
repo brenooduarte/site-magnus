@@ -54,3 +54,37 @@
     }
   }
 }
+
+@media screen and (min-width: 870px) {
+  .card-stage {
+    transition: all ease-in-out 0.5s;
+
+    .card-text {
+      font-size: 1.5rem;
+      padding-left: 6rem;
+      padding-right: 1.5rem;
+      width: 40rem;
+    }
+
+    .card-stage-retangle {
+      height: 8rem;
+      width: 36.5rem;
+
+      .card-stage-circle {
+        height: 8.5rem;
+        width: 8.5rem;
+        margin-right: 35rem;
+        font-size: 1.6rem;
+
+        span {
+          font-size: 3.2rem;
+          height: 3.5rem;
+        }
+      }
+    }
+  }
+
+  .card-stage:hover {
+    transform: scale(1.05);
+  }
+}
