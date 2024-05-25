@@ -1,6 +1,6 @@
 @import "/src/global.scss";
 
-#about-section {
+#quem-somos {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +52,7 @@
 }
 
 @media screen and (max-width: 369px) {
-  #about-section {
+  #quem-somos {
     h1 {
       font-size: 1.4rem;
     }
@@ -60,7 +60,7 @@
 }
 
 @media screen and (min-width: 379px) {
-  #about-section {
+  #quem-somos {
     h1 {
       font-size: 1.8rem;
     }
@@ -90,7 +90,7 @@
 }
 
 @media screen and (min-width: 407px) {
-  #about-section {
+  #quem-somos {
     h1 {
       font-size: 1.8rem;
     }
@@ -120,7 +120,7 @@
 }
 
 @media screen and (min-width: 425px) {
-  #about-section {
+  #quem-somos {
     height: 62rem;
 
     h1 {
@@ -154,13 +154,14 @@
 }
 
 @media screen and (min-width: 870px) {
-  #about-section {
+  #quem-somos {
     height: 35rem;
     padding-top: 4rem;
     gap: 2rem;
 
     h1 {
       font-size: 1.8rem;
+      margin-left: 20.5rem;
     }
 
     #about-container {

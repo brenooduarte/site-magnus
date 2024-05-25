@@ -4,7 +4,7 @@ import imageLucas from "../../../assets/lucas-matheus.png";
 
 const AboutCompany = () => {
   return (
-    <section id="about-section">
+    <section id="quem-somos">
       <h1>QUEM SOMOS</h1>
       <div id="about-container">
         {window.innerWidth < 870 ? (

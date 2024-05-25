@@ -15,7 +15,16 @@ function Header() {
     if (window.innerWidth < 870) {
       toggleMenu();
     }
-    window.location.href = "/#about-section";
+    window.location.href = "/#quem-somos";
+  };
+
+  window.onload = () => {
+    const aboutSection = document.getElementById("quem-somos");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    } else {
+      console.error("Elemento não encontrado na página.");
+    }
   };
 
   const toggleArrow = () => {
