@@ -3,6 +3,10 @@
 #brand-rejected {
   height: 180.5rem;
 
+  h1 {
+    width: 26rem;
+  }
+
   #arrow-icon {
     transform: rotate(90deg);
   }
@@ -64,6 +68,10 @@
 @media screen and (min-width: 870px) {
   #brand-rejected {
     height: 180.5rem;
+
+    h1 {
+      width: 50rem;
+    }
 
     #info {
       gap: 0.7rem;

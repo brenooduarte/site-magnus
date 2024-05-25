@@ -4,6 +4,10 @@
   padding: 0;
   height: 197.5rem;
 
+  h1 {
+    width: 26rem;
+  }
+
   h2 {
     font-size: 1.5rem;
   }
@@ -63,6 +67,43 @@
 }
 
 @media screen and (min-width: 870px) {
+  #register-software {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ol {
+      display: flex;
+      justify-content: center;
+      margin-right: 60rem;
+
+      li {
+        margin: 0;
+        padding: 0;
+        p {
+          font-size: 1.8rem;
+        }
+      }
+    }
+
+    p {
+      font-size: 1.8rem;
+      width: 92rem;
+    }
+
+    h1 {
+      width: 34rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .image-register-software {
+      width: 51rem;
+    }
+  }
+
   .texture-registersoftware {
     display: none;
   }
@@ -73,7 +114,7 @@
     position: absolute;
     object-fit: cover;
     width: 100%;
-    height: 192rem;
+    height: 203rem;
     z-index: -1;
   }
 }

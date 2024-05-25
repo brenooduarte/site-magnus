@@ -26,11 +26,7 @@ const BrandRejected = () => {
           src={textureDesktop}
           alt="texture"
         />
-        <h1>
-          MINHA MARCA
-          <br />
-          FOI INDEFERIDA
-        </h1>
+        <h1>MINHA MARCA FOI INDEFERIDA</h1>
 
         <div id="info">
           <h3>E AGORA?</h3>

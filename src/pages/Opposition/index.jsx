@@ -43,10 +43,7 @@ const Opposition = () => {
 
       <main id="opposition">
         <div>
-          <h1>
-            FUI ALVO DE <br />
-            OPOSIÇÃO
-          </h1>
+          <h1>FUI ALVO DE OPOSIÇÃO</h1>
 
           <h2 className="color-white">
             ANTES DE MAIS NADA, O QUE <br />
@@ -54,7 +51,7 @@ const Opposition = () => {
           </h2>
         </div>
 
-        <p>
+        <p className="title-card-stage">
           Após o depósito da marca no site do INPI, sua avaliação passa por 3
           etapas:
         </p>
@@ -97,8 +94,9 @@ const Opposition = () => {
         ) : (
           <h2 className="color-white">
             OK! ENTENDI. <br />
-            MAS COMO UMA OPOSIÇÃO PODE <br />
-            AFETAR O MEU PROCESSO?
+            MAS COMO UMA OPOSIÇÃO
+            <br />
+            AFETA O MEU PROCESSO?
           </h2>
         )}
 
@@ -175,11 +173,9 @@ const Opposition = () => {
           )}
         </div>
 
-        <h2 className="color-yellow">
-          NA MAGNUS ESTUDAMOS SEU CASO <br />
-          COM ATENÇÃO E PREPARAMOS SUA <br />
-          DEFESA COM BASE NOS MELHORES <br />
-          ARGUMENTOS.
+        <h2 className="color-yellow title-magnus-estudamos">
+          NA MAGNUS ESTUDAMOS SEU CASO COM ATENÇÃO E PREPARAMOS SUA DEFESA COM
+          BASE NOS MELHORES ARGUMENTOS.
         </h2>
 
         <ServicePrice

@@ -42,6 +42,9 @@ const CustomerService = () => {
                   apesar da sua grande importância, o que muitos empreendedores
                   não sabem é que posssuir CNPJ, site ou perfil na rede social
                   não significa que ele seja dono da marca que utiliza.
+                  Contratar um profissional habilitado é o modo mais seguro de
+                  evitar problemas durante o processo, garantindo o sucesso do
+                  pedido de registro.
                 </p>
 
                 <img className="coroa-logo-magnus" src={coroaLogoMagnus} />

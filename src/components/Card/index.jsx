@@ -1,7 +1,7 @@
 import "./styles.scss";
 import React, { useEffect } from "react";
 
-const Card = ({ photo, alt, title, description }) => {
+const Card = ({ className, photo, alt, title, description }) => {
   useEffect(() => {
     AOS.init();
   });
@@ -10,7 +10,7 @@ const Card = ({ photo, alt, title, description }) => {
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
       data-aos-duration="600"
-      className="card"
+      className={`card ${className}`}
     >
       <div className="info-card">
         <h3 className="card-title">{title}</h3>

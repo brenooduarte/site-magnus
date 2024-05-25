@@ -64,17 +64,26 @@
 @media screen and (min-width: 870px) {
   #benefits-section {
     height: 70rem;
+    margin-bottom: 5rem;
 
     #benefits-container {
       .aos-animate {
         margin: 0;
       }
 
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
       #cards {
         margin-top: 4rem;
         justify-content: center;
         flex-direction: row;
-        width: 75rem;
+        width: 81rem;
         gap: 5rem;
         flex-wrap: wrap;
       }

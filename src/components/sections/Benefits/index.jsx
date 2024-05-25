@@ -27,6 +27,7 @@ const Benefits = () => {
           />
 
           <Card
+            className={"security-card"}
             photo={Security}
             alt={
               "Um cadeado aberto em meio a teclas de computador espalhadas sobre uma mesa"

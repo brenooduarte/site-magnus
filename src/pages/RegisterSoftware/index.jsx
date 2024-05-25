@@ -18,7 +18,7 @@ const RegisterSoftware = () => {
   return (
     <div>
       <img
-        className="texture-registerbrand-desktop"
+        className="texture-registersoftware-desktop"
         src={textureDesktop}
         alt="texture"
       />
@@ -26,11 +26,7 @@ const RegisterSoftware = () => {
       <Header />
 
       <main id="register-software">
-        <h1>
-          REGISTRAR
-          <br />
-          SOFTWARE
-        </h1>
+        <h1>REGISTRAR SOFTWARE</h1>
 
         <h2 className="color-white">
           POR QUE PRECISO REGISTRAR <br />
