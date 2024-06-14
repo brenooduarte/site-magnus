@@ -1,5 +1,4 @@
 import "./styles.scss";
-import Header from "../../components/Header";
 import ServicePrice from "../../components/ServicePrice";
 import texture from "../../assets/texture-brandrejected.png";
 import { IoIosArrowForward } from "react-icons/io";
@@ -18,8 +17,6 @@ const BrandRejected = () => {
 
   return (
     <div>
-      <Header />
-
       <main id="brand-rejected">
         <img
           className="texture-brandrejected-desktop"

@@ -1,5 +1,4 @@
 import CardStage from "../../components/CardStage";
-import Header from "../../components/Header";
 import "./styles.scss";
 import { useState, useEffect } from "react";
 import HomemPensativo from "../../assets/homem-pensativo.gif";
@@ -38,8 +37,6 @@ const Opposition = () => {
         src={textureDesktop}
         alt="texture"
       />
-
-      <Header />
 
       <main id="opposition">
         <div className="title-and-text-opposition">

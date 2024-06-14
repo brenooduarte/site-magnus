@@ -1,5 +1,4 @@
 import "./styles.scss";
-import Header from "../../components/Header";
 import ServicePrice from "../../components/ServicePrice";
 import texture from "../../assets/texture-registersoftware.png";
 import imageRegisterSoftware from "../../assets/image-register-software.jpg";
@@ -22,8 +21,6 @@ const RegisterSoftware = () => {
         src={textureDesktop}
         alt="texture"
       />
-
-      <Header />
 
       <main id="register-software">
         <h1>REGISTRAR SOFTWARE</h1>

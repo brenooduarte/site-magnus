@@ -1,5 +1,4 @@
 import "./styles.scss";
-import Header from "../../components/Header";
 import ServicePrice from "../../components/ServicePrice";
 import texture from "../../assets/texture-registerbrand.png";
 import imageRegisterBrand from "../../assets/image-register-brand.jpg";
@@ -38,8 +37,6 @@ const RegisterBrand = () => {
         alt="texture"
       />
 
-      <Header />
-
       <main className="register-brand-section">
         <h1>REGISTRAR MINHA MARCA</h1>
 
@@ -60,11 +57,13 @@ const RegisterBrand = () => {
               MARCA NÃO REGISTRADA
             </h2>
 
-            <ul>
+            <ul className="lista-riscos-marca">
               <li>Perder a marca caso alguêm registre antes</li>
               <li>Ser obrigado a trocar o nome da empresa</li>
               <li>Ser processado e pagar indenização</li>
               <li>Ser vítima de plágio</li>
+              <li>Alguém pode roubar sua marca</li>
+              <li>Perder todo seu investimento</li>
             </ul>
 
             <h2 id="title-register-brand">
@@ -83,7 +82,7 @@ const RegisterBrand = () => {
         ) : (
           <>
             <div className="container-one">
-              <p>
+              <p className="text-registerbrand">
                 A marca é o ativo mais valioso de uma empresa, é o seu DNA, por
                 onde as pessoas reconhecem e se conectam ao negócio. mas apesar
                 da sua grande importância, o que muitos empreendedores não sabem
@@ -97,17 +96,24 @@ const RegisterBrand = () => {
                   MARCA NÃO REGISTRADA
                 </h2>
 
-                <ul>
-                  <li>Perder a marca caso alguêm registre antes</li>
-                  <li>Ser obrigado a trocar o nome da empresa</li>
-                  <li>Ser processado e pagar indenização</li>
-                  <li>Ser vítima de plágio</li>
+                <ul className="lista-riscos-marca">
+                  <div>
+                    <li>Perder a marca caso alguém registre antes</li>
+                    <li>Ser obrigado a trocar o nome da empresa</li>
+                    <li>Ser processado e pagar indenização</li>
+                  </div>
+
+                  <div>
+                    <li>Alguém pode roubar sua marca</li>
+                    <li>Perder todo seu investimento</li>
+                    <li>Ser vítima de plágio</li>
+                  </div>
                 </ul>
               </div>
             </div>
 
             <div className="container-two">
-              <div>
+              <div className="info-container-two">
                 <h2 id="title-register-brand">
                   POR QUE CONTRATAR A MAGNUS PARA REGISTRAR MINHA MARCA?
                 </h2>

@@ -1,5 +1,4 @@
 import Button from "../../components/Button";
-import Header from "../../components/Header";
 import { useState } from "react";
 import "./styles.scss";
 
@@ -37,8 +36,6 @@ const Consultancy = () => {
         src={textureDesktop}
         alt="texture"
       />
-
-      <Header />
 
       <main id="consultancy-section">
         <h1>CONSULTORIA</h1>

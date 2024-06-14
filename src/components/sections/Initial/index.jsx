@@ -1,14 +1,11 @@
 import "./styles.scss";
 import backgroundImage from "../../../assets/image-initial-desktop.jpg";
 import whatsappIcon from "../../../assets/whatsapp-icon.png";
-import Header from "../../Header";
 import { motion } from "framer-motion";
 
 const Initial = () => {
   return (
     <section id="initial-section">
-      <Header />
-
       <div id="info-container">
         <motion.h1
           id="initial-title"

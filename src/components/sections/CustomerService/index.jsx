@@ -49,7 +49,7 @@ const CustomerService = () => {
 
                 <img className="coroa-logo-magnus" src={coroaLogoMagnus} />
                 <Link to="/registrar-marca" className="link-saiba-mais">
-                  Saiba mais
+                  Saiba mais...
                 </Link>
               </div>
 
@@ -67,7 +67,7 @@ const CustomerService = () => {
 
                 <img className="coroa-logo-magnus" src={coroaLogoMagnus} />
                 <Link to="/oposicao" className="link-saiba-mais">
-                  Saiba mais
+                  Saiba mais...
                 </Link>
               </div>
 
@@ -86,7 +86,7 @@ const CustomerService = () => {
 
                 <img className="coroa-logo-magnus" src={coroaLogoMagnus} />
                 <Link to="/marca-indeferida" className="link-saiba-mais">
-                  Saiba mais
+                  Saiba mais...
                 </Link>
               </div>
 
@@ -99,7 +99,7 @@ const CustomerService = () => {
                   de um software:
                 </p>
 
-                <p>
+                <p className="pontos-registrarsoftware">
                   <strong>
                     1.Proteção de Propriedade Intelectual <br />
                     2.Credibilidade e Confiança <br />
@@ -111,7 +111,7 @@ const CustomerService = () => {
 
                 <img className="coroa-logo-magnus" src={coroaLogoMagnus} />
                 <Link to="/registrar-software" className="link-saiba-mais">
-                  Saiba mais
+                  Saiba mais...
                 </Link>
               </div>
 
@@ -132,7 +132,7 @@ const CustomerService = () => {
 
                 <img className="coroa-logo-magnus" src={coroaLogoMagnus} />
                 <Link to="/consultoria" className="link-saiba-mais">
-                  Saiba mais
+                  Saiba mais...
                 </Link>
               </div>
             </>
