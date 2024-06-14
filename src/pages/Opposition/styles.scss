@@ -4,6 +4,12 @@
   height: 181.5rem;
   gap: 3rem;
 
+  .title-and-text-opposition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   h1 {
     width: 23rem;
   }

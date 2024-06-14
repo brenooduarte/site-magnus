@@ -9,10 +9,10 @@ const Price = ({
 }) => {
   return (
     <div id="price-container">
-      <h1 id="page-title">
+      <h6 id="page-title">
         QUANTO VOU PRECISAR <br />
         INVESTIR?
-      </h1>
+      </h6>
 
       <div id="price-items">
         <div id="inpi-taxes" className="price-item">

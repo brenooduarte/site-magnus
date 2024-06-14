@@ -42,7 +42,7 @@ const Opposition = () => {
       <Header />
 
       <main id="opposition">
-        <div>
+        <div className="title-and-text-opposition">
           <h1>FUI ALVO DE OPOSIÇÃO</h1>
 
           <h2 className="color-white">
