@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "./styles.scss";
 import { useState, useEffect } from "react";
-
 import magnusWhiteLogo from "../../assets/magnus-white-logo.svg";
 import { IoIosArrowForward } from "react-icons/io";
 
@@ -71,7 +70,7 @@ function Header() {
   return (
     <header
       className={`header ${showMenu ? "background" : ""}${
-        hasScrolled ? " background" : ""
+        hasScrolled ? "background" : ""
       }`}
     >
       <Link id="link-logo" to="/">
@@ -82,13 +81,13 @@ function Header() {
         />
       </Link>
       <nav className={`menuSandwich ${showMenu ? "show" : ""}`}>
-        <Link to="#" title="Em desenvolvimento" onClick={toggleMenu}>
+        <Link to="#" title="Em desenvolvimento">
           Blog
           {window.innerWidth < 870 && (
             <span className="em-desenvolvimento">( Em desenvolvimento )</span>
           )}
         </Link>
-        <Link to="#" title="Em desenvolvimento" onClick={toggleMenu}>
+        <Link to="#" title="Em desenvolvimento">
           Parceria
           {window.innerWidth < 870 && (
             <span className="em-desenvolvimento">( Em desenvolvimento )</span>
