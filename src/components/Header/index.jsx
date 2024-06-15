@@ -12,11 +12,13 @@ function Header() {
   const [turnArrow, setTurnArrow] = useState(false);
 
   const scrollToAboutSection = () => {
-    if (window.innerWidth < 870) {
-      toggleMenu();
+    const aboutSection = document.getElementById("quem-somos");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth" });
     }
-
-    window.location.href = "#quem-somos";
+    if (window.innerWidth < 870) {
+      setShowMenu(false);
+    }
   };
 
   const toggleArrow = () => {
@@ -29,6 +31,14 @@ function Header() {
 
   const toggleServicesDropdown = () => {
     setShowServicesDropdown(!showServicesDropdown);
+  };
+
+  const handleServiceLinkClick = () => {
+    setShowServicesDropdown(false);
+    setTurnArrow(false);
+    if (window.innerWidth < 870) {
+      setShowMenu(false);
+    }
   };
 
   useEffect(() => {
@@ -72,19 +82,19 @@ function Header() {
         />
       </Link>
       <nav className={`menuSandwich ${showMenu ? "show" : ""}`}>
-        <Link to="#" title="Em desenvolvimento">
+        <Link to="#" title="Em desenvolvimento" onClick={toggleMenu}>
           Blog
           {window.innerWidth < 870 && (
             <span className="em-desenvolvimento">( Em desenvolvimento )</span>
           )}
         </Link>
-        <Link to="#" title="Em desenvolvimento">
+        <Link to="#" title="Em desenvolvimento" onClick={toggleMenu}>
           Parceria
           {window.innerWidth < 870 && (
             <span className="em-desenvolvimento">( Em desenvolvimento )</span>
           )}
         </Link>
-        <Link type="button" id="quem-somos-link" onClick={scrollToAboutSection}>
+        <Link className="quem-somos-link" onClick={scrollToAboutSection}>
           Quem Somos
         </Link>
         <Link
@@ -103,7 +113,7 @@ function Header() {
           </span>
         </Link>
         {showServicesDropdown && (
-          <ul className="services-dropdown">
+          <ul className="services-dropdown" onClick={handleServiceLinkClick}>
             <li>
               <Link to="/registrar-marca">Registrar minha marca</Link>
             </li>
