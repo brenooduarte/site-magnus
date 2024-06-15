@@ -1,7 +1,7 @@
 @import "/src/global.scss";
 
 #brand-rejected {
-  height: 180.5rem;
+  height: 169rem;
 
   h1 {
     width: 26rem;
@@ -51,12 +51,11 @@
   }
 
   .texture-brandrejected {
-    // display: contents;
     opacity: 0.9;
     position: absolute;
     object-fit: cover;
     width: 100%;
-    height: 180.5rem;
+    height: 169rem;
     z-index: -1;
   }
 
@@ -162,7 +161,7 @@
       position: absolute;
       object-fit: cover;
       width: 100%;
-      height: 192rem;
+      height: 186rem;
       z-index: -1;
     }
   }
