@@ -25,7 +25,7 @@ function App() {
       <ScrollToTopOnNavigate />
       <Header />
       <Routes>
-        <Route path="" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/registrar-marca" element={<RegisterBrand />} />
         <Route path="/marca-indeferida" element={<BrandRejected />} />
         <Route path="/oposicao" element={<Opposition />} />

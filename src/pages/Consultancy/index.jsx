@@ -32,7 +32,11 @@ const Consultancy = () => {
   return (
     <div>
       <img
-        className="texture-consultancy-desktop"
+        className={`${
+          verMaisCard1 || verMaisCard2 || verMaisCard3
+            ? "height-card-open"
+            : "height-card-close"
+        } texture-consultancy-desktop`}
         src={textureDesktop}
         alt="texture"
       />
@@ -52,13 +56,13 @@ const Consultancy = () => {
             </p>
             <button
               className={`botao-ver-mais ${
-                verMaisCard1 ? "color-white" : "color-yellow"
+                verMaisCard1 ? "display-none" : "color-yellow"
               }`}
               onClick={() => {
                 toggleVerMaisCard1();
               }}
             >
-              {verMaisCard1 ? "Ocultar Detalhes" : "Mostrar Detalhes"}
+              Mostrar Detalhes
             </button>
 
             {verMaisCard1 && (
@@ -97,6 +101,15 @@ const Consultancy = () => {
                 </p>
 
                 <Button />
+
+                <button
+                  className="botao-ver-mais color-white"
+                  onClick={() => {
+                    toggleVerMaisCard1();
+                  }}
+                >
+                  Ocultar Detalhes
+                </button>
               </>
             )}
           </div>
@@ -116,13 +129,13 @@ const Consultancy = () => {
             </p>
             <button
               className={`botao-ver-mais ${
-                verMaisCard2 ? "color-white" : "color-yellow"
+                verMaisCard2 ? "display-none" : "color-yellow"
               }`}
               onClick={() => {
                 toggleVerMaisCard2();
               }}
             >
-              {verMaisCard2 ? "Ocultar Detalhes" : "Mostrar Detalhes"}
+              Mostrar Detalhes
             </button>
 
             {verMaisCard2 && (
@@ -164,6 +177,15 @@ const Consultancy = () => {
                 </p>
 
                 <Button />
+
+                <button
+                  className="botao-ver-mais color-white"
+                  onClick={() => {
+                    toggleVerMaisCard2();
+                  }}
+                >
+                  Ocultar Detalhes
+                </button>
               </>
             )}
           </div>
@@ -184,13 +206,13 @@ const Consultancy = () => {
             </p>
             <button
               className={`botao-ver-mais ${
-                verMaisCard3 ? "color-white" : "color-yellow"
+                verMaisCard3 ? "display-none" : "color-yellow"
               }`}
               onClick={() => {
                 toggleVerMaisCard3();
               }}
             >
-              {verMaisCard3 ? "Ocultar Detalhes" : "Mostrar Detalhes"}
+              Mostrar Detalhes
             </button>
 
             {verMaisCard3 && (
@@ -231,6 +253,15 @@ const Consultancy = () => {
                 </ul>
 
                 <Button />
+
+                <button
+                  className="botao-ver-mais color-white"
+                  onClick={() => {
+                    toggleVerMaisCard3();
+                  }}
+                >
+                  Ocultar Detalhes
+                </button>
               </>
             )}
           </div>

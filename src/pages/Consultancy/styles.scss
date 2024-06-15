@@ -1,5 +1,9 @@
 @import "/src/global.scss";
 
+.display-none {
+  display: none;
+}
+
 #consultancy-section {
   height: 100%;
   position: relative;
@@ -190,8 +194,29 @@
 }
 
 @media screen and (min-width: 870px) {
+  #consultancy-section {
+    .consultancy-cards {
+      gap: 3rem;
+      flex-direction: row;
+      padding-bottom: 5rem;
+
+      .consultancy-card {
+        width: 36rem;
+        height: 100%;
+      }
+    }
+  }
+
   .texture-consultancy {
     display: none;
+  }
+
+  .height-card-open {
+    height: 158rem;
+  }
+
+  .height-card-close {
+    height: 65rem;
   }
 
   .texture-consultancy-desktop {
@@ -200,7 +225,6 @@
     position: absolute;
     object-fit: cover;
     width: 100%;
-    height: 192rem;
     z-index: -1;
   }
 }

@@ -91,7 +91,7 @@ const RegisterBrand = () => {
               </p>
 
               <div>
-                <h2>
+                <h2 className="title-riscos-marca">
                   RISCOS DE UTILIZAR UMA <br />
                   MARCA NÃO REGISTRADA
                 </h2>
