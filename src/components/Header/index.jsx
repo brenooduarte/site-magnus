@@ -73,7 +73,7 @@ function Header() {
         <img
           onClick={() => {
             {
-              showMenu && toggleMenu();
+              window.innerWidth < 870 && showMenu && toggleMenu();
             }
           }}
           className="magnus-logo"
