@@ -1,6 +1,13 @@
 import "./styles.scss";
 
-const TestimonialCard = ({ photo, name, company, testimonial, brand }) => {
+const TestimonialCard = ({
+  linkSocialMedia,
+  photo,
+  name,
+  company,
+  testimonial,
+  brand,
+}) => {
   return (
     <div className="testimonial-card">
       <img className="customer-photo" src={photo} alt={`Foto de ${name}`} />
@@ -11,7 +18,12 @@ const TestimonialCard = ({ photo, name, company, testimonial, brand }) => {
       </div>
 
       <p>{testimonial}</p>
-      <img className="customer-brand" src={brand} alt={`Marca de ${name}`} />
+      <img
+        onClick={() => window.open(linkSocialMedia, "_blank")}
+        className="customer-brand"
+        src={brand}
+        alt={`Marca de ${name}`}
+      />
     </div>
   );
 };

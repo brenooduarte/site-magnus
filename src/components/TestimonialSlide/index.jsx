@@ -6,11 +6,11 @@ import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/scss";
 import "swiper/css/autoplay";
 import "swiper/css/navigation";
-import { useState } from "react";
 
 const CARDS = 10;
 
 const TestimonialSlide = ({
+  linksSocialMedia,
   customerPhotos,
   customerNames,
   customerCompanies,
@@ -36,6 +36,7 @@ const TestimonialSlide = ({
             <SwiperSlide key={index}>
               <Card
                 key={index}
+                linkSocialMedia={linksSocialMedia[index]}
                 photo={customerPhotos[index]}
                 name={customerNames[index]}
                 company={customerCompanies[index]}
@@ -62,6 +63,7 @@ const TestimonialSlide = ({
             <SwiperSlide key={index}>
               <Card
                 key={index}
+                linkSocialMedia={linksSocialMedia[index]}
                 photo={customerPhotos[index]}
                 name={customerNames[index]}
                 company={customerCompanies[index]}

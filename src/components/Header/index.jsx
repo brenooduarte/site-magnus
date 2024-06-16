@@ -68,13 +68,14 @@ function Header() {
   }, []);
 
   return (
-    <header
-      className={`header ${showMenu ? "background" : ""}${
-        hasScrolled ? "background" : ""
-      }`}
-    >
+    <header className={`header ${showMenu || hasScrolled ? "background" : ""}`}>
       <Link id="link-logo" to="/">
         <img
+          onClick={() => {
+            {
+              showMenu && toggleMenu();
+            }
+          }}
           className="magnus-logo"
           src={magnusWhiteLogo}
           alt="Logotipo branco Magnus"

@@ -88,12 +88,26 @@ const customerBrands = [
   brand10,
 ];
 
+const linksSocialMedia = [
+  "https://www.instagram.com/vm.sucatas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
+  "https://faroldenoticias.com.br/",
+  "https://www.instagram.com/alilab__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  "https://www.instagram.com/belalunni?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  "https://www.instagram.com/jaelson_salgados?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  "https://atualizetelecom.com.br/",
+  "https://www.facebook.com/escoladoceencantosume/?locale=pt_BR",
+  "https://www.instagram.com/temperocheirobom?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  "https://www.simep.com.br/",
+  "https://www.instagram.com/savory.massas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+];
+
 const Testimonial = () => {
   return (
     <section id="testimonial-section">
       <h1>DEPOIMENTOS</h1>
 
       <Slide
+        linksSocialMedia={linksSocialMedia}
         customerPhotos={customerPhotos}
         customerNames={customerNames}
         customerCompanies={customerCompanies}

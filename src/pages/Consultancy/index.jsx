@@ -46,27 +46,23 @@ const Consultancy = () => {
 
         <div className="consultancy-cards">
           <div className="consultancy-card">
-            <h2 className="title-card-consultancy">CRIAÇÃO DE UMA MARCA</h2>
-            <img className="image-consultancy" src={lampada} alt="Lâmpada" />
-            <p>
-              Você está pronto para lançar sua empresa no mercado, algum produto
-              ou serviço, mas ainda não sabe se a marca que você criou está
-              disponível para ser usada? Então esse serviço é o que você
-              precisa.
-            </p>
-            <button
-              className={`botao-ver-mais ${
-                verMaisCard1 ? "display-none" : "color-yellow"
-              }`}
-              onClick={() => {
-                toggleVerMaisCard1();
-              }}
-            >
-              Mostrar Detalhes
-            </button>
-
-            {verMaisCard1 && (
+            {verMaisCard1 ? (
               <>
+                <h2 className="title-card-consultancy">CRIAÇÃO DE UMA MARCA</h2>
+                <img
+                  className="image-consultancy"
+                  src={lampada}
+                  alt="Lâmpada"
+                />
+                <p>
+                  Você está pronto para lançar sua empresa no mercado, algum
+                  produto ou serviço, mas ainda não sabe se a marca que você
+                  criou está disponível para ser usada? Então esse serviço é o
+                  que você precisa. É comum muitas empresas se lançarem no
+                  mercado ou lançar seus produtos e serviços sem antes fazer uma
+                  pesquisa prévia se a marca que vai ser usada já não pertence a
+                  outra empresa.
+                </p>
                 <p>
                   É comum muitas empresas se lançarem no mercado ou lançar seus
                   produtos e serviços sem antes fazer uma pesquisa prévia se a
@@ -111,6 +107,34 @@ const Consultancy = () => {
                   Ocultar Detalhes
                 </button>
               </>
+            ) : (
+              <>
+                <h2 className="title-card-consultancy">CRIAÇÃO DE UMA MARCA</h2>
+                <img
+                  className="image-consultancy"
+                  src={lampada}
+                  alt="Lâmpada"
+                />
+                <p>
+                  Você está pronto para lançar sua empresa no mercado, algum
+                  produto ou serviço, mas ainda não sabe se a marca que você
+                  criou está disponível para ser usada? Então esse serviço é o
+                  que você precisa. É comum muitas empresas se lançarem no
+                  mercado ou lançar seus produtos e serviços sem antes fazer uma
+                  pesquisa prévia se...
+                </p>
+
+                <button
+                  className={`botao-ver-mais ${
+                    verMaisCard1 ? "display-none" : "color-yellow"
+                  }`}
+                  onClick={() => {
+                    toggleVerMaisCard1();
+                  }}
+                >
+                  Mostrar Detalhes
+                </button>
+              </>
             )}
           </div>
 
@@ -125,7 +149,8 @@ const Consultancy = () => {
               Você tem uma marca e usa ela há anos, mas nunca se preocupou em
               registrar porque sempre achou que ela já era sua? Temos uma coisa
               para te contar: Você está colocando em risco seu maior patrimônio
-              e nem sabe disso.
+              e nem sabe disso. Não adianta ter CNPJ, registro na junta
+              comercial do estado, site da empresa ou redes sociais.
             </p>
             <button
               className={`botao-ver-mais ${
@@ -140,11 +165,8 @@ const Consultancy = () => {
 
             {verMaisCard2 && (
               <>
-                <p>
-                  Não adianta ter CNPJ, registro na junta comercial do estado,
-                  site da empresa ou redes sociais. Nada disso te garante a
-                  posse de uma marca.
-                </p>
+                <p>Nada disso te garante a posse de uma marca.</p>
+
                 <h3 className="highlighted-title-card">
                   SÓ É DONO DA MARCA QUEM REGISTRA NO INPI
                 </h3>
