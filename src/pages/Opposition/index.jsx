@@ -5,6 +5,7 @@ import HomemPensativo from "../../assets/homem-pensativo.gif";
 import ServicePrice from "../../components/ServicePrice/index.jsx";
 import texture from "../../assets/texture-opposition.png";
 import textureDesktop from "../../assets/texture-desktop.png";
+import Footer from "../../components/sections/Footer/index.jsx";
 
 const Opposition = () => {
   const INPItaxes = [112, 280];
@@ -184,6 +185,8 @@ const Opposition = () => {
 
         <img className="texture-opposition" src={texture} />
       </main>
+
+      <Footer />
     </div>
   );
 };

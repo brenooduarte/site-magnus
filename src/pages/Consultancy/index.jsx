@@ -1,5 +1,5 @@
 import Button from "../../components/Button";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./styles.scss";
 
 import lampada from "../../assets/lampada.png";
@@ -11,11 +11,31 @@ import detetiveInpi from "../../assets/detetive-inpi.png";
 
 import texture from "../../assets/texture2.png";
 import textureDesktop from "../../assets/texture-desktop.png";
+import Footer from "../../components/sections/Footer/index.jsx";
 
 const Consultancy = () => {
   const [verMaisCard1, setVerMaisCard1] = useState(false);
   const [verMaisCard2, setVerMaisCard2] = useState(false);
   const [verMaisCard3, setVerMaisCard3] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const consultancySection = document.getElementById("consultancy-section");
+      if (window.innerWidth < 870) {
+        consultancySection.style.height = "100%";
+      } else {
+        consultancySection.style.height = "";
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const toggleVerMaisCard1 = () => {
     setVerMaisCard1(!verMaisCard1);
@@ -30,7 +50,7 @@ const Consultancy = () => {
   };
 
   return (
-    <div>
+    <div className="container-consultancy-section">
       <img
         className={`${
           verMaisCard1 || verMaisCard2 || verMaisCard3
@@ -41,7 +61,14 @@ const Consultancy = () => {
         alt="texture"
       />
 
-      <main id="consultancy-section">
+      <main
+        id="consultancy-section"
+        className={`${
+          verMaisCard1 || verMaisCard2 || verMaisCard3
+            ? "height-open-consultancy-section"
+            : "height-close-consultancy-section"
+        } consultancy-section`}
+      >
         <h1>CONSULTORIA</h1>
 
         <div className="consultancy-cards">
@@ -291,6 +318,8 @@ const Consultancy = () => {
 
         <img className="texture-consultancy" src={texture} />
       </main>
+
+      <Footer />
     </div>
   );
 };

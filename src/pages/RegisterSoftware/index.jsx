@@ -3,6 +3,7 @@ import ServicePrice from "../../components/ServicePrice";
 import texture from "../../assets/texture-registersoftware.png";
 import imageRegisterSoftware from "../../assets/image-register-software.jpg";
 import textureDesktop from "../../assets/texture-desktop.png";
+import Footer from "../../components/sections/Footer/index.jsx";
 
 const RegisterSoftware = () => {
   const INPItaxes = [185];
@@ -114,6 +115,8 @@ const RegisterSoftware = () => {
 
         <img className="texture-registersoftware" src={texture} />
       </main>
+
+      <Footer />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import ServicePrice from "../../components/ServicePrice";
 import texture from "../../assets/texture-registerbrand.png";
 import imageRegisterBrand from "../../assets/image-register-brand.jpg";
 import textureDesktop from "../../assets/texture-desktop.png";
+import Footer from "../../components/sections/Footer/index.jsx";
 import { useState, useEffect } from "react";
 
 const RegisterBrand = () => {
@@ -40,6 +41,10 @@ const RegisterBrand = () => {
       <main className="register-brand-section">
         <h1>REGISTRAR MINHA MARCA</h1>
 
+        <div>
+          <img className="image-register-brand" src={imageRegisterBrand} />
+        </div>
+
         {isMobile ? (
           <>
             <p>
@@ -50,9 +55,7 @@ const RegisterBrand = () => {
               ele seja dono da marca que utiliza.
             </p>
 
-            <img className="image-register-brand" src={imageRegisterBrand} />
-
-            <h2>
+            <h2 className="title-riscos-marca">
               RISCOS DE UTILIZAR UMA <br />
               MARCA NÃO REGISTRADA
             </h2>
@@ -126,13 +129,6 @@ const RegisterBrand = () => {
                   pedido de registro.
                 </p>
               </div>
-
-              <div>
-                <img
-                  className="image-register-brand"
-                  src={imageRegisterBrand}
-                />
-              </div>
             </div>
           </>
         )}
@@ -148,6 +144,8 @@ const RegisterBrand = () => {
 
         <img src={texture} className="texture-registerbrand" alt="" />
       </main>
+
+      <Footer />
     </div>
   );
 };

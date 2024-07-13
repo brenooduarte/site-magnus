@@ -2,6 +2,7 @@ import "./styles.scss";
 import ServicePrice from "../../components/ServicePrice";
 import texture from "../../assets/texture-brandrejected.png";
 import { IoIosArrowForward } from "react-icons/io";
+import Footer from "../../components/sections/Footer/index.jsx";
 
 import textureDesktop from "../../assets/texture-desktop.png";
 
@@ -90,6 +91,8 @@ const BrandRejected = () => {
 
         <img className="texture-brandrejected" src={texture} alt="texture" />
       </main>
+
+      <Footer />
     </div>
   );
 };

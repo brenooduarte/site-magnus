@@ -1,6 +1,7 @@
 @import "/src/global.scss";
 
 #brand-rejected {
+  position: relative;
   height: 169rem;
 
   h1 {
@@ -55,7 +56,7 @@
     position: absolute;
     object-fit: cover;
     width: 100%;
-    height: 169rem;
+    height: 241rem;
     z-index: -1;
   }
 
@@ -66,7 +67,7 @@
 
 @media screen and (min-width: 870px) {
   #brand-rejected {
-    height: 180.5rem;
+    height: 185.5rem;
 
     h1 {
       width: 50rem;
@@ -161,7 +162,7 @@
       position: absolute;
       object-fit: cover;
       width: 100%;
-      height: 186rem;
+      height: 235rem;
       z-index: -1;
     }
   }
